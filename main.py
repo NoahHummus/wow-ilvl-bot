@@ -17,58 +17,17 @@ def create_access_token(client_id = "c16db4e6f6844553a6ce96bd878fcda0", client_s
 #generate token once on startup
 access_token = create_access_token()
 
-### DEPRECATED ###
-# retrieve character profile from wow api
-def get_character_profile(realm,charactername):
-    headers = {
-    'Authorization' : f"BEARER {create_access_token()}"
-    }
-    params = {
-    'namespace' : 'profile-us',
-    'locale' : 'en_US'
-    }
-    response = requests.get(f"{bnetapiuri}/profile/wow/character/{realm}/{charactername}", params=params, headers=headers)
-    print(f"Status code : {response.status_code}")
-    print(response.json())
-    return response
-
-### DEPRECATED ###
-# retrieve character profile from every registered character in the database
-def get_all_characters():
-    characterdata = []
-    characterlist = db.select_all_characters()
-    for i in characterlist:
-        charactername = i[0]
-        realm = i[1]
-        response = get_character_profile(realm, charactername)
-        #response = get_character_items(realm, charactername)
-        characterdata.append(response.json())
-    print(characterdata)
-    return characterdata
-
-# retrieve character profile from every registered character in the database
-def threaded_get_all_characters():
-    characterdata = []
-    characterlist = db.select_all_characters()
+# retrieve API data for every registered character in the database
+def get_all(apiPath=""):
+    data = []
     urls = []
-    for i in characterlist:
-        charactername = i[0]
-        realm = i[1]
-        urls.append(f"{bnetapiuri}/profile/wow/character/{realm}/{charactername}?namespace=profile-us&locale=en_US&access_token={access_token}")
-    characterdata = boosted_requests(urls=urls)
-    return characterdata
-
-# retrieve mythic profile from every registered character in the database
-def threaded_get_all_mythics():
-    characterdata = []
     characterlist = db.select_all_characters()
-    urls = []
     for i in characterlist:
         charactername = i[0]
         realm = i[1]
-        urls.append(f"{bnetapiuri}/profile/wow/character/{realm}/{charactername}/mythic-keystone-profile?namespace=profile-us&locale=en_US&access_token={access_token}")
-    characterdata = boosted_requests(urls=urls)
-    return characterdata
+        urls.append(f"{bnetapiuri}/profile/wow/character/{realm}/{charactername}{apiPath}?namespace=profile-us&locale=en_US&access_token={access_token}")
+    data = boosted_requests(urls=urls)
+    return data
 
 def get_ilvl_from_profile(profilelist):
     ilvllist = []
@@ -103,20 +62,36 @@ def get_mythic_from_profile(profilelist):
             mythiclist.append(playerinfo)
     return mythiclist
 
-def build_ranking(datalist):
-    rowlist = []
-    sorteddatalist = sorted(datalist, key=itemgetter('ilvl'), reverse=True)
-    for playerinfo in sorteddatalist:
-        rowlist.append(f"{playerinfo.get('name')} : {playerinfo.get('ilvl')}")
-    text = '\n'.join(rowlist)
-    print(text)
-    return text
+def get_setpieces_from_profile(profilelist):
+    #certainly overkill, but this is to make sure we only look at tier sets, not any set
+    tierSetNames = ["Haunted Frostbrood Remains","Skybound Avenger's Flightwear","Lost Landcaller's Vesture","Scales of the Awakened","Stormwing Harrier's Camouflage","Bindings of the Crystal Scholar","Wrappings of the Waking Fist","Virtuous Silver Cataphract","Draconic Hierophant's Finery","Vault Delver's Toolkit","Elements of Infused Earth","Scalesworn Cultist's Habit","Stones of the Walking Mountain"]
+    #will need to be updated as the tier sets change
+    setpiecelist = []
+    for response in profilelist:
+        playerinfo = {}
+        piecesNum = None
+        pieces = response.get("equipped_item_sets")
+        if pieces != None:
+            #do stuff
+            for sett in pieces:
+                if sett['item_set']['name'] in tierSetNames:
+                    piecesNum = int(sett['display_string'].split("(")[1][:-3])
+            if piecesNum == None:
+                piecesNum = 0
+        else:
+            piecesNum = 0
+        charactername = response.get("character")
+        charactername = charactername['name']
+        playerinfo.update({'pieces': piecesNum})
+        playerinfo.update({'name': charactername})
+        setpiecelist.append(playerinfo)
+    return setpiecelist
 
-def build_ranking_mythic(datalist):
+def build_ranking(datalist, keyToRank):
     rowlist = []
-    sorteddatalist = sorted(datalist, key=itemgetter('mythic'), reverse=True)
+    sorteddatalist = sorted(datalist, key=itemgetter(keyToRank), reverse=True)
     for playerinfo in sorteddatalist:
-        rowlist.append(f"{playerinfo.get('name')} : {playerinfo.get('mythic')}")
+        rowlist.append(f"{playerinfo.get('name')} : {playerinfo.get(keyToRank)}")
     text = '\n'.join(rowlist)
     print(text)
     return text

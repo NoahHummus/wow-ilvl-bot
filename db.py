@@ -35,14 +35,6 @@ def update_owner_of_character(charactername,owner):
     con.commit()
     print(f"query : {query} ---- values {owner} {charactername}")
 
-#single character owner checker, no longer implemented
-def fetch_owner_name(charactername):
-    query = 'SELECT username from characters where charactername = ?'
-    for row in cur.execute(query, [charactername]):
-        owner = row[0]
-    print(f"query : {query} ---- values {charactername}")
-    return owner
-
 def fetch_all_owner_names():
     characterlist = []
     query = 'SELECT username, charactername from characters'
@@ -76,23 +68,3 @@ def change_owner(charactername,owner):
     else:
         response = "This character isn't regsitered"
         return response
-
-#single character owner checker, no longer implemented
-def check_owner(charactername):
-    if check_for_character(charactername):
-        owner = fetch_owner_name(charactername)
-        response = f"{charactername.upper()} is registered to {owner}"
-        return response
-    else:
-        response = "This character isn't regsitered"
-        return response
-
-#debug command to dump the entire database, no longer implemented
-def debug_print_database():
-    characterlist = []
-    query = 'SELECT username, charactername, realm from characters'
-    for row in cur.execute(query):
-        characterlist.append(row)
-    print(characterlist)
-    return characterlist
-    

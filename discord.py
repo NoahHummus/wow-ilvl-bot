@@ -30,13 +30,13 @@ async def register(ctx: lightbulb.Context) -> None:
 @lightbulb.implements(lightbulb.SlashCommand)
 async def ilvl(ctx):
     await ctx.respond("Retrieving....!")
-    ilvllist = main.get_ilvl_from_profile(main.threaded_get_all_characters())
+    ilvllist = main.get_ilvl_from_profile(main.get_all())
     await ctx.respond(hikari.Embed(
         title=f'-----------------+ BIGGEST BOYS +-----------------',
         colour=0x3B9DFF,
         ).add_field(
         name=f'Character Name : Equipped ilvl',
-        value = main.build_ranking(ilvllist)
+        value = main.build_ranking(ilvllist, 'ilvl')
     ))
 
 #check M+ rating
@@ -45,13 +45,28 @@ async def ilvl(ctx):
 @lightbulb.implements(lightbulb.SlashCommand)
 async def mythic(ctx):
     await ctx.respond("Retrieving....!")
-    mythiclist = main.get_mythic_from_profile(main.threaded_get_all_mythics())
+    mythiclist = main.get_mythic_from_profile(main.get_all('/mythic-keystone-profile'))
     await ctx.respond(hikari.Embed(
         title=f'------------+ SWEATIEST TRYHARDS +------------',
         colour=0x3B9DFF,
         ).add_field(
         name=f'Character Name : Mythic+ rating',
-        value = main.build_ranking_mythic(mythiclist)
+        value = main.build_ranking(mythiclist, 'mythic')
+    ))
+    
+#check number of set pieces
+@bot.command
+@lightbulb.command('sets', 'Get a list of how many set pieces each character has equipped')
+@lightbulb.implements(lightbulb.SlashCommand)
+async def sets(ctx):
+    await ctx.respond("Retrieving....!")
+    piecelist = main.get_setpieces_from_profile(main.get_all('/equipment'))
+    await ctx.respond(hikari.Embed(
+        title=f'------------+ WHO IS BRICKED UP? +------------',
+        colour=0x3B9DFF,
+        ).add_field(
+        name=f'Character Name : Equipped tier pieces',
+        value = main.build_ranking(piecelist, 'pieces')
     ))
 
 #change ownership of character
@@ -70,16 +85,6 @@ async def changeowner(ctx: lightbulb.Context) -> None:
     print(f"character name: {name}")
     print(f"new owner: {owner}")
     await ctx.respond(db.change_owner(name, owner))
-    
-#single character ownership checker
-#@bot.command
-#@lightbulb.option('name', 'Name of the wow character', str, required=True)
-#@lightbulb.command('whoowns', 'Check the registered owner of a character')
-#@lightbulb.implements(lightbulb.PrefixCommand, lightbulb.SlashCommand)
-#async def whoowns(ctx: lightbulb.Context) -> None:
-#    name = ctx.options.name.lower()
-#    print(f"character name: {name}")
-#    await ctx.respond(db.check_owner(name))
     
 #check ownership of all characters
 @bot.command
