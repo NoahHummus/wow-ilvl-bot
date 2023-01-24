@@ -98,5 +98,13 @@ async def whoowns2(ctx: lightbulb.Context) -> None:
         name=f'Character Name : Registered Owner',
         value = main.list_owners()
     ))
+    
+#ask the bot if wow is up
+@bot.command
+@lightbulb.command('iswowup', 'Ask the bot if WoW is up right now')
+@lightbulb.implements(lightbulb.SlashCommand)
+async def iswowup(ctx: lightbulb.Context) -> None:
+    f = hikari.File('img/spongebob.png')
+    await ctx.respond(f)
 
 bot.run()
