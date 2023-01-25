@@ -1,12 +1,18 @@
 import lightbulb
 import hikari
 import requests
+import random
 import db
 import main
 
 with open('token.txt', 'r') as file:
     token = file.read()
 print(token)
+
+with open('hilariousresponses2023version2real_final.txt', 'r') as file:
+    hilariousresponses = []
+    for line in file:
+        hilariousresponses.append(line)
 
 bot = lightbulb.BotApp(token=token, intents=hikari.Intents.ALL, default_enabled_guilds=(97389122452193280, 428374533154668544))
 
@@ -62,7 +68,7 @@ async def sets(ctx):
     await ctx.respond("Retrieving....!")
     piecelist = main.get_setpieces_from_profile(main.get_all('/equipment'))
     await ctx.respond(hikari.Embed(
-        title=f'------------+ WHO IS BRICKED UP? +------------',
+        title=f"-------------+ WHO'S BRICKED UP? +-------------",
         colour=0x3B9DFF,
         ).add_field(
         name=f'Character Name : Equipped tier pieces',
@@ -104,7 +110,28 @@ async def whoowns2(ctx: lightbulb.Context) -> None:
 @lightbulb.command('iswowup', 'Ask the bot if WoW is up right now')
 @lightbulb.implements(lightbulb.SlashCommand)
 async def iswowup(ctx: lightbulb.Context) -> None:
-    f = hikari.File('img/spongebob.png')
-    await ctx.respond(f)
+    if main.isWowDown():
+        f = hikari.File('img/spongebob.png')
+        await ctx.respond(f)
+    else:
+        await ctx.respond('WoW servers are up, so why are you here talking to a bot and not progging?')
+        
+#ask the bot if wow is down
+@bot.command
+@lightbulb.command('iswowdown', 'Ask the bot if WoW is down right now')
+@lightbulb.implements(lightbulb.SlashCommand)
+async def iswowdown(ctx: lightbulb.Context) -> None:
+    if main.isWowDown():
+        f = hikari.File('img/spongebob2.png')
+        await ctx.respond(f)
+    else:
+        await ctx.respond('WoW servers are up, so why are you here talking to a bot and not progging?')
+
+#ask the bot if wow is dead
+@bot.command
+@lightbulb.command('iswowdead', 'Ask the bot if WoW is dead')
+@lightbulb.implements(lightbulb.SlashCommand)
+async def iswowdead(ctx: lightbulb.Context) -> None:
+    await ctx.respond(random.choice(hilariousresponses))
 
 bot.run()

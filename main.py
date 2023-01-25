@@ -29,11 +29,17 @@ def get_all(apiPath=""):
     data = boosted_requests(urls=urls)
     return data
 
+#wow it actually checks if wow is down (technically it checks Kul Tiras directly)
+def isWowDown():
+    response = requests.get(f"https://us.api.blizzard.com/data/wow/connected-realm/1147?namespace=dynamic-us&locale=en_US&access_token={access_token}")
+    status = response.json().get('status')
+    status = status['type']
+    return status=="DOWN"
+
 def get_ilvl_from_profile(profilelist):
     ilvllist = []
     for response in profilelist:
         playerinfo = {}
-        #ilvl = response.get("equipped_item_level")
         ilvl = response.get("average_item_level")
         charactername = response.get("name")
         playerinfo.update({'ilvl': ilvl})
