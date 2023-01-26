@@ -17,6 +17,11 @@ def create_access_token(client_id = "c16db4e6f6844553a6ce96bd878fcda0", client_s
 #generate token once on startup
 access_token = create_access_token()
 
+# retrieve character profile from wow api
+def get_character_profile(realm,charactername):
+    response = requests.get(f"{bnetapiuri}/profile/wow/character/{realm}/{charactername}?namespace=profile-us&locale=en_US&access_token={access_token}")
+    return response
+
 # retrieve API data for every registered character in the database
 def get_all(apiPath=""):
     data = []
@@ -68,6 +73,56 @@ def get_mythic_from_profile(profilelist):
             mythiclist.append(playerinfo)
     return mythiclist
 
+def get_mythicprog_from_profile(profilelist):
+    proglist = []
+    for response in profilelist:
+        playerinfo = {}
+        mythic = response.get("current_mythic_rating")
+        if mythic != None:
+            mythic = int(mythic['rating'])
+            charactername = response.get("character")
+            charactername = charactername['name']
+            last = db.get_last_mythic_by_player(charactername.lower())
+            print(charactername,"last",last)
+            if last != None:
+                progVal = mythic-last
+                if progVal != 0:
+                    progcentage = round(((progVal/last)*100),2)
+                    prog = f"{progVal} (+{progcentage}%)"
+                else:
+                    prog = f"{progVal}"
+            else:
+                prog = -659
+            playerinfo.update({'prog': prog})
+            playerinfo.update({'name': charactername})
+            proglist.append(playerinfo)
+        else:
+            progVal = 0
+            progcentage = 0
+            prog = f"{progVal}"
+            charactername = response.get("character")
+            charactername = charactername['name']
+            playerinfo.update({'prog': prog})
+            playerinfo.update({'name': charactername})
+            proglist.append(playerinfo)
+    return proglist
+
+def get_ilvlprog_from_profile(profilelist):
+    proglist = []
+    for response in profilelist:
+        playerinfo = {}
+        ilvl = response.get("average_item_level")
+        charactername = response.get("name")
+        last = db.get_last_ilvl_by_player(charactername.lower())
+        if last != None:
+            prog = ilvl-last
+        else:
+            prog = -659
+        playerinfo.update({'prog': prog})
+        playerinfo.update({'name': charactername})
+        proglist.append(playerinfo)
+    return proglist
+
 def get_setpieces_from_profile(profilelist):
     #certainly overkill, but this is to make sure we only look at tier sets, not any set
     tierSetNames = ["Haunted Frostbrood Remains","Skybound Avenger's Flightwear","Lost Landcaller's Vesture","Scales of the Awakened","Stormwing Harrier's Camouflage","Bindings of the Crystal Scholar","Wrappings of the Waking Fist","Virtuous Silver Cataphract","Draconic Hierophant's Finery","Vault Delver's Toolkit","Elements of Infused Earth","Scalesworn Cultist's Habit","Stones of the Walking Mountain"]
@@ -99,6 +154,7 @@ def build_ranking(datalist, keyToRank):
     for playerinfo in sorteddatalist:
         rowlist.append(f"{playerinfo.get('name')} : {playerinfo.get(keyToRank)}")
     text = '\n'.join(rowlist)
+    text = text.replace("-659","<unknown>")
     print(text)
     return text
 

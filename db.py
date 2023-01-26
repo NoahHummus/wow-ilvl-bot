@@ -34,6 +34,18 @@ def update_owner_of_character(charactername,owner):
     cur.execute(query, (str(owner), charactername))
     con.commit()
     print(f"query : {query} ---- values {owner} {charactername}")
+    
+def update_character_mythic_prog(charactername,newscore):
+    query = 'UPDATE characters SET last_mythic_score = ? where charactername = ?'
+    cur.execute(query, (int(newscore), charactername))
+    con.commit()
+    print(f"query : {query} ---- values {newscore} {charactername}")
+
+def update_character_ilvl_prog(charactername,newilvl):
+    query = 'UPDATE characters SET last_ilvl = ? where charactername = ?'
+    cur.execute(query, (int(newilvl), charactername))
+    con.commit()
+    print(f"query : {query} ---- values {newilvl} {charactername}")
 
 def fetch_all_owner_names():
     characterlist = []
@@ -41,6 +53,20 @@ def fetch_all_owner_names():
     for row in cur.execute(query):
         characterlist.append(row)
     return characterlist
+    
+def get_last_mythic_by_player(charactername):
+    query = 'SELECT last_mythic_score from characters where charactername = ?'
+    cur.execute(query, [charactername])
+    result = cur.fetchone()
+    print(charactername,"result",result)
+    return result[0]
+
+def get_last_ilvl_by_player(charactername):
+    query = 'SELECT last_ilvl from characters where charactername = ?'
+    cur.execute(query, [charactername])
+    result = cur.fetchone()
+    print(charactername,"result",result)
+    return result[0]
 
 #specific methods
 def register_character(user,charactername,realm):
@@ -57,14 +83,12 @@ def register_character(user,charactername,realm):
     response = f"{charactername.upper()} has been registered!"
     return response
 
-def change_owner(charactername,owner):
-    if owner == None:
-        response = "Invalid owner name, please tag someone"
-        return response
-    if check_for_character(charactername):
-        update_owner_of_character(charactername,owner)
-        response = f"{charactername.upper()} has been reassigned to {owner}"
-        return response
-    else:
-        response = "This character isn't regsitered"
-        return response
+#weekly db update for progging
+def update_prog_log():
+    print("updating prog log, in db")
+    mythiclist = main.get_mythic_from_profile(main.get_all('/mythic-keystone-profile'))
+    for character in mythiclist:
+        update_character_mythic_prog(character['name'].lower(),character['mythic'])
+    ilvllist = main.get_ilvl_from_profile(main.get_all())
+    for character in ilvllist:
+        update_character_ilvl_prog(character['name'].lower(),character['ilvl'])

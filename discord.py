@@ -1,9 +1,9 @@
-import lightbulb
-import hikari
+import lightbulb, hikari
 import requests
 import random
-import db
-import main
+import schedule, time, threading
+import db, main
+
 
 with open('token.txt', 'r') as file:
     token = file.read()
@@ -13,6 +13,15 @@ with open('hilariousresponses2023version2real_final.txt', 'r') as file:
     hilariousresponses = []
     for line in file:
         hilariousresponses.append(line)
+
+#weekly db update for progging
+def update_prog_log():
+    print("updating prog log, in discord")
+    db.update_prog_log();
+def run_threaded_job(job_func):
+    job_thread = threading.Thread(target=job_func)
+    job_thread.start()
+schedule.every().tuesday.at("10:01").do(run_threaded_job, update_prog_log)
 
 bot = lightbulb.BotApp(token=token, intents=hikari.Intents.ALL, default_enabled_guilds=(97389122452193280, 428374533154668544))
 
@@ -60,6 +69,36 @@ async def mythic(ctx):
         value = main.build_ranking(mythiclist, 'mythic')
     ))
     
+#check M+ progress since last weekly update
+@bot.command
+@lightbulb.command('mythicprog', 'Get a Mythic+ rating progression ranking from the list of registered characters')
+@lightbulb.implements(lightbulb.SlashCommand)
+async def mythicprog(ctx):
+    await ctx.respond("Retrieving....!")
+    proglist = main.get_mythicprog_from_profile(main.get_all('/mythic-keystone-profile'))
+    await ctx.respond(hikari.Embed(
+        title=f'---------------+ PROGGERS AF +---------------',
+        colour=0x3B9DFF,
+        ).add_field(
+        name=f'Character Name : Mythic+ progression since reset',
+        value = main.build_ranking(proglist, 'prog')
+    ))    
+
+#check ilvl progress since last weekly update
+@bot.command
+@lightbulb.command('ilvlprog', 'Get an ilvl progression ranking from the list of registered characters')
+@lightbulb.implements(lightbulb.SlashCommand)
+async def mythicprog(ctx):
+    await ctx.respond("Retrieving....!")
+    proglist = main.get_ilvlprog_from_profile(main.get_all())
+    await ctx.respond(hikari.Embed(
+        title=f'---------------+ PROGGERS AF +---------------',
+        colour=0x3B9DFF,
+        ).add_field(
+        name=f'Character Name : ilvl progression since reset',
+        value = main.build_ranking(proglist, 'prog')
+    ))
+
 #check number of set pieces
 @bot.command
 @lightbulb.command('sets', 'Get a list of how many set pieces each character has equipped')
@@ -73,36 +112,6 @@ async def sets(ctx):
         ).add_field(
         name=f'Character Name : Equipped tier pieces',
         value = main.build_ranking(piecelist, 'pieces')
-    ))
-
-#change ownership of character
-@bot.command
-@lightbulb.option('name', 'Name of the wow character', str, required=True)
-@lightbulb.option('owner', 'Who this character should be registered to', str, required=True)
-@lightbulb.command('changeowner', 'Reassign a character to the correct owner')
-@lightbulb.implements(lightbulb.PrefixCommand, lightbulb.SlashCommand)
-async def changeowner(ctx: lightbulb.Context) -> None:
-    name = ctx.options.name.lower()
-    try:
-        owner_id = int(ctx.options.owner[2:-1])
-        owner = ctx.get_guild().get_member(owner_id)
-    except:
-        owner = None
-    print(f"character name: {name}")
-    print(f"new owner: {owner}")
-    await ctx.respond(db.change_owner(name, owner))
-    
-#check ownership of all characters
-@bot.command
-@lightbulb.command('whoowns', 'Check the registered owners of all characters')
-@lightbulb.implements(lightbulb.PrefixCommand, lightbulb.SlashCommand)
-async def whoowns2(ctx: lightbulb.Context) -> None:
-    await ctx.respond(hikari.Embed(
-        title=f'-----------------+ OWNERS +-----------------',
-        colour=0x3B9DFF,
-        ).add_field(
-        name=f'Character Name : Registered Owner',
-        value = main.list_owners()
     ))
     
 #ask the bot if wow is up
