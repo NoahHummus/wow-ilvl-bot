@@ -2,7 +2,7 @@ import lightbulb, hikari
 import requests
 import random
 import schedule, time, threading
-import db, main
+import db, main#, chatgptPy
 
 
 with open('token.txt', 'r') as file:
@@ -50,7 +50,7 @@ async def ilvl(ctx):
         title=f'-----------------+ BIGGEST BOYS +-----------------',
         colour=0x3B9DFF,
         ).add_field(
-        name=f'Character Name : Equipped ilvl',
+        name=f'Character Name : ilvl (including bagged items)',
         value = main.build_ranking(ilvllist, 'ilvl')
     ))
 
@@ -142,5 +142,21 @@ async def iswowdown(ctx: lightbulb.Context) -> None:
 @lightbulb.implements(lightbulb.SlashCommand)
 async def iswowdead(ctx: lightbulb.Context) -> None:
     await ctx.respond(random.choice(hilariousresponses))
+    
+#eulogize a character
+#@bot.command
+#@lightbulb.option('name', 'Name of the wow character', str, required=True)
+#@lightbulb.command('eulogize', 'Generate a euology for a dead character')
+#@lightbulb.implements(lightbulb.PrefixCommand, lightbulb.SlashCommand)
+#async def eulogize(ctx):
+#    await ctx.respond("Eulogizing....!")
+#    name = ctx.options.name.lower()
+#    eulogy = chatgptPy.eulogize(name)
+#    await ctx.respond(hikari.Embed(
+#        title=f"------------------+ RIP +------------------",
+#        colour=0x000000,
+#        ).add_field(
+#        value = eulogy
+#    ))
 
 bot.run()

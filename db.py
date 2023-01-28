@@ -53,6 +53,12 @@ def fetch_all_owner_names():
     for row in cur.execute(query):
         characterlist.append(row)
     return characterlist
+       
+def check_character_realm(charactername):
+    query = 'SELECT realm from characters where charactername = ?'
+    cur.execute(query, [charactername])
+    result = cur.fetchone()
+    return result[0]
     
 def get_last_mythic_by_player(charactername):
     query = 'SELECT last_mythic_score from characters where charactername = ?'

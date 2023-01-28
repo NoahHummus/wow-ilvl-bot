@@ -41,6 +41,25 @@ def isWowDown():
     status = status['type']
     return status=="DOWN"
 
+#fetch info for chatgpt eulogy
+def fetch_euology_data(charactername):
+    print(charactername)
+    print(db.check_character_realm(charactername))
+    print(get_character_profile(db.check_character_realm(charactername),charactername))
+    euology_data = {}
+    response = get_character_profile(db.check_character_realm(charactername),charactername)
+    j = response.json()
+    name = j.get('name')
+    if j.get('active_title') == None:
+        euology_data.update({'name': j.get('name')})
+    else:
+        euology_data.update({'name': j.get('active_title')['display_string'].format(name=name)})
+    euology_data.update({'race': j.get('race')['name']})
+    euology_data.update({'class': j.get('character_class')['name']})
+    euology_data.update({'spec': j.get('active_spec')['name']})
+    euology_data.update({'realm': j.get('realm')['name']})
+    return euology_data
+
 def get_ilvl_from_profile(profilelist):
     ilvllist = []
     for response in profilelist:
@@ -87,21 +106,25 @@ def get_mythicprog_from_profile(profilelist):
             if last != None:
                 progVal = mythic-last
                 if progVal != 0:
-                    progcentage = round(((progVal/last)*100),2)
-                    prog = f"{progVal} (+{progcentage}%)"
+                    if last != 0:
+                        progcentage = round(((progVal/last)*100),2)
+                        prog = f"{progVal} (+{progcentage}%)"
+                    else:
+                        prog = f"{mythic} (+infinity%)"
                 else:
-                    prog = f"{progVal}"
+                    prog = "0"
             else:
-                prog = -659
+                prog = "-659"
+            print(f'appending {type(prog)} to {charactername}')
             playerinfo.update({'prog': prog})
             playerinfo.update({'name': charactername})
             proglist.append(playerinfo)
         else:
             progVal = 0
-            progcentage = 0
             prog = f"{progVal}"
             charactername = response.get("character")
             charactername = charactername['name']
+            print(f'appending {type(prog)} to {charactername}')
             playerinfo.update({'prog': prog})
             playerinfo.update({'name': charactername})
             proglist.append(playerinfo)
@@ -150,6 +173,8 @@ def get_setpieces_from_profile(profilelist):
 
 def build_ranking(datalist, keyToRank):
     rowlist = []
+    print(f"\ndatralist:{datalist}")
+    print(f"\nkeyToRank:{keyToRank}")
     sorteddatalist = sorted(datalist, key=itemgetter(keyToRank), reverse=True)
     for playerinfo in sorteddatalist:
         rowlist.append(f"{playerinfo.get('name')} : {playerinfo.get(keyToRank)}")
