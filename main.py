@@ -108,23 +108,28 @@ def get_mythicprog_from_profile(profilelist):
                 if progVal != 0:
                     if last != 0:
                         progcentage = round(((progVal/last)*100),2)
-                        prog = f"{progVal} (+{progcentage}%)"
+                        rankString = f"{progVal} (+{progcentage}%)"
+                        prog = progVal
                     else:
-                        prog = f"{mythic} (+infinity%)"
+                        rankString = f"{mythic} (+infinity%)"
+                        prog = mythic
                 else:
-                    prog = "0"
+                    rankString = "0"
+                    prog = 0
             else:
-                prog = "-659"
-            print(f'appending {type(prog)} to {charactername}')
+                rankString = "<unknown>"
+                prog = -659
+            playerinfo.update({'rankString': rankString})
             playerinfo.update({'prog': prog})
             playerinfo.update({'name': charactername})
             proglist.append(playerinfo)
         else:
             progVal = 0
-            prog = f"{progVal}"
+            rankString = f"{progVal}"
+            prog = 0
             charactername = response.get("character")
             charactername = charactername['name']
-            print(f'appending {type(prog)} to {charactername}')
+            playerinfo.update({'rankString': rankString})
             playerinfo.update({'prog': prog})
             playerinfo.update({'name': charactername})
             proglist.append(playerinfo)
@@ -173,11 +178,15 @@ def get_setpieces_from_profile(profilelist):
 
 def build_ranking(datalist, keyToRank):
     rowlist = []
-    print(f"\ndatralist:{datalist}")
+    print(f"\ndatalist:{datalist}")
     print(f"\nkeyToRank:{keyToRank}")
     sorteddatalist = sorted(datalist, key=itemgetter(keyToRank), reverse=True)
-    for playerinfo in sorteddatalist:
-        rowlist.append(f"{playerinfo.get('name')} : {playerinfo.get(keyToRank)}")
+    if "rankString" in datalist[0].keys():
+        for playerinfo in sorteddatalist:
+            rowlist.append(f"{playerinfo.get('name')} : {playerinfo.get('rankString')}")
+    else:
+        for playerinfo in sorteddatalist:
+            rowlist.append(f"{playerinfo.get('name')} : {playerinfo.get(keyToRank)}")
     text = '\n'.join(rowlist)
     text = text.replace("-659","<unknown>")
     print(text)
