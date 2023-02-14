@@ -29,23 +29,18 @@ def insert_character(user,charactername,realm):
     con.commit()
     print(f"query : {query} ---- values {user} {charactername} {realm}")
 
+def unregister_character(charactername):
+    query = 'DELETE from characters WHERE charactername = ?'
+    cur.execute(query, [charactername])
+    con.commit()
+    print(f"query : {query} ---- values {charactername}")
+
+
 def update_owner_of_character(charactername,owner):
     query = 'UPDATE characters SET username = ? where charactername = ?'
     cur.execute(query, (str(owner), charactername))
     con.commit()
     print(f"query : {query} ---- values {owner} {charactername}")
-    
-def update_character_mythic_prog(charactername,newscore):
-    query = 'UPDATE characters SET last_mythic_score = ? where charactername = ?'
-    cur.execute(query, (int(newscore), charactername))
-    con.commit()
-    print(f"query : {query} ---- values {newscore} {charactername}")
-
-def update_character_ilvl_prog(charactername,newilvl):
-    query = 'UPDATE characters SET last_ilvl = ? where charactername = ?'
-    cur.execute(query, (int(newilvl), charactername))
-    con.commit()
-    print(f"query : {query} ---- values {newilvl} {charactername}")
 
 def fetch_all_owner_names():
     characterlist = []
@@ -72,7 +67,33 @@ def get_last_ilvl_by_player(charactername):
     cur.execute(query, [charactername])
     result = cur.fetchone()
     print(charactername,"result",result)
+    return result[0]   
+    
+def get_weeks_since_mythic_prog(charactername):
+    query = 'SELECT weeks_since_mythic_prog from characters where charactername = ?'
+    cur.execute(query, [charactername])
+    result = cur.fetchone()
+    print(charactername,"result",result)
     return result[0]
+
+def set_weeks_since_mythic_prog(charactername, weekVal):
+    query = 'UPDATE characters SET weeks_since_mythic_prog = ? where charactername = ?'
+    cur.execute(query, (weekVal, charactername))
+    con.commit()
+    print(f"query : {query} ---- values {weekVal} {charactername}")
+
+def get_weeks_since_ilvl_prog(charactername):
+    query = 'SELECT weeks_since_ilvl_prog from characters where charactername = ?'
+    cur.execute(query, [charactername])
+    result = cur.fetchone()
+    print(charactername,"result",result)
+    return result[0]
+
+def set_weeks_since_ilvl_prog(charactername, weekVal):
+    query = 'UPDATE characters SET weeks_since_ilvl_prog = ? where charactername = ?'
+    cur.execute(query, (weekVal, charactername))
+    con.commit()
+    print(f"query : {query} ---- values {weekVal} {charactername}")
 
 #specific methods
 def register_character(user,charactername,realm):
@@ -94,7 +115,38 @@ def update_prog_log():
     print("updating prog log, in db")
     mythiclist = main.get_mythic_from_profile(main.get_all('/mythic-keystone-profile'))
     for character in mythiclist:
+        print("updating mythic of:"+character['name'].lower())
         update_character_mythic_prog(character['name'].lower(),character['mythic'])
     ilvllist = main.get_ilvl_from_profile(main.get_all())
     for character in ilvllist:
+        print("updating ilvl of :"+character['name'].lower())
         update_character_ilvl_prog(character['name'].lower(),character['ilvl'])
+        #after setting mythic+ilvl prog, check weeks. unregister if non-progger
+        nonprogLimit = 2
+        if (get_weeks_since_ilvl_prog(character)>=nonprogLimit and get_weeks_since_mythic_prog(character)>=nonprogLimit):
+            print(f"!!! {character} is a NONPROGGER, unregistering")
+            unregister_character(character)
+
+def update_character_mythic_prog(charactername,newscore):
+    if newscore == get_last_mythic_by_player(charactername):
+        print(f"{charactername} did not prog in mythic this week")
+        set_weeks_since_mythic_prog(charactername,int(get_weeks_since_mythic_prog(charactername))+1)
+    else:
+        print(f"{charactername} progged in mythic this week")
+        set_weeks_since_mythic_prog(charactername,0)
+    query = 'UPDATE characters SET last_mythic_score = ? where charactername = ?'
+    cur.execute(query, (int(newscore), charactername))
+    con.commit()
+    print(f"query : {query} ---- values {newscore} {charactername}")
+
+def update_character_ilvl_prog(charactername,newilvl):
+    if newilvl == get_last_ilvl_by_player(charactername):
+        print(f"{charactername} did not prog in ilvl this week")
+        set_weeks_since_ilvl_prog(charactername,int(get_weeks_since_ilvl_prog(charactername))+1)
+    else:
+        print(f"{charactername} progged in ilvl this week")
+        set_weeks_since_ilvl_prog(charactername,0)
+    query = 'UPDATE characters SET last_ilvl = ? where charactername = ?'
+    cur.execute(query, (int(newilvl), charactername))
+    con.commit()
+    print(f"query : {query} ---- values {newilvl} {charactername}")

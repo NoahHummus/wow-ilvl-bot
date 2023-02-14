@@ -1,9 +1,8 @@
 import lightbulb, hikari
 import requests
 import random
-import schedule, time, threading
+import threading
 import db, main#, chatgptPy
-
 
 with open('token.txt', 'r') as file:
     token = file.read()
@@ -13,15 +12,6 @@ with open('hilariousresponses2023version2real_final.txt', 'r') as file:
     hilariousresponses = []
     for line in file:
         hilariousresponses.append(line)
-
-#weekly db update for progging
-def update_prog_log():
-    print("updating prog log, in discord")
-    db.update_prog_log();
-def run_threaded_job(job_func):
-    job_thread = threading.Thread(target=job_func)
-    job_thread.start()
-schedule.every().tuesday.at("10:01").do(run_threaded_job, update_prog_log)
 
 bot = lightbulb.BotApp(token=token, intents=hikari.Intents.ALL, default_enabled_guilds=(97389122452193280, 428374533154668544))
 
