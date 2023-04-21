@@ -58,6 +58,7 @@ def fetch_euology_data(charactername):
     euology_data.update({'class': j.get('character_class')['name']})
     euology_data.update({'spec': j.get('active_spec')['name']})
     euology_data.update({'realm': j.get('realm')['name']})
+    euology_data.update({'gender': j.get('gender')['name']})
     return euology_data
 
 def get_ilvl_from_profile(profilelist):

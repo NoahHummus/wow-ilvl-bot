@@ -2,7 +2,7 @@ import lightbulb, hikari
 import requests
 import random
 import threading
-import db, main#, chatgptPy
+import db, main, chatgptPy
 
 with open('token.txt', 'r') as file:
     token = file.read()
@@ -134,19 +134,21 @@ async def iswowdead(ctx: lightbulb.Context) -> None:
     await ctx.respond(random.choice(hilariousresponses))
     
 #eulogize a character
-#@bot.command
-#@lightbulb.option('name', 'Name of the wow character', str, required=True)
-#@lightbulb.command('eulogize', 'Generate a euology for a dead character')
-#@lightbulb.implements(lightbulb.PrefixCommand, lightbulb.SlashCommand)
-#async def eulogize(ctx):
-#    await ctx.respond("Eulogizing....!")
-#    name = ctx.options.name.lower()
-#    eulogy = chatgptPy.eulogize(name)
-#    await ctx.respond(hikari.Embed(
-#        title=f"------------------+ RIP +------------------",
-#        colour=0x000000,
-#        ).add_field(
-#        value = eulogy
-#    ))
+@bot.command
+@lightbulb.option('name', 'Name of the wow character', str, required=True)
+@lightbulb.command('eulogize', 'Generate a euology for a dead character')
+@lightbulb.implements(lightbulb.PrefixCommand, lightbulb.SlashCommand)
+async def eulogize(ctx):
+    await ctx.respond("Eulogizing....!")
+    name = ctx.options.name.lower()
+    eulogy = chatgptPy.eulogize(name)
+    await ctx.respond("> "+eulogy)
+    #await ctx.respond(hikari.Embed(
+    #    title="------------------+ RIP +------------------",
+    #    colour=0x000000,
+    #    ).add_field(
+    #    name="-------------------------------------------",
+    #    value = eulogy
+    #))
 
 bot.run()
