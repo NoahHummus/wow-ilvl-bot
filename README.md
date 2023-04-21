@@ -8,7 +8,7 @@ Discord.py is what listens for the slash commands and calls main. Main does the 
 
 Additional info:
 
-chatgptPy.py isn't used because of reasons.
+chatgptPy.py is now used. It only creates eulogies currently. You need to provide your own API key for that, I ain't sharin'
 
 update.py is run in a separate instance and automatically updates ilvl and mythic progression at weekly reset (coded in EST, so it goes at 10:01, feel free to update to reflect your time zone)
 
