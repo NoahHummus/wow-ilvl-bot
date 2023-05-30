@@ -3,6 +3,7 @@ import db
 from operator import itemgetter
 from request_boost import boosted_requests
 import json
+import urllib.parse as parse
 
 bneturi = 'https://us.battle.net'
 bnetapiuri = 'https://us.api.blizzard.com'
@@ -19,6 +20,8 @@ access_token = create_access_token()
 
 # retrieve character profile from wow api
 def get_character_profile(realm,charactername):
+    print("getting profile for: "+charactername)
+    print("realm: "+realm)
     response = requests.get(f"{bnetapiuri}/profile/wow/character/{realm}/{charactername}?namespace=profile-us&locale=en_US&access_token={access_token}")
     return response
 
@@ -30,8 +33,12 @@ def get_all(apiPath=""):
     for i in characterlist:
         charactername = i[0]
         realm = i[1]
-        urls.append(f"{bnetapiuri}/profile/wow/character/{realm}/{charactername}{apiPath}?namespace=profile-us&locale=en_US&access_token={access_token}")
+        urlTemp = f"{bnetapiuri}/profile/wow/character/{realm}/{charactername}{apiPath}?namespace=profile-us&locale=en_US&access_token={access_token}"
+        urlNewTemp = urlTemp.replace("\u00E1","%C3%A1")
+        urls.append(urlNewTemp)
+    print("I'm goin in !!!'")
     data = boosted_requests(urls=urls)
+    print("we outtie")
     return data
 
 #wow it actually checks if wow is down (technically it checks Kul Tiras directly)
