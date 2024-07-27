@@ -1,0 +1,2609 @@
+[
+    {
+        "question": "Which expansion introduced the Death Knight class?",
+        "answers": ["The Burning Crusade", "Wrath of the Lich King", "Cataclysm", "Mists of Pandaria"],
+        "correct_index": 1,
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Which of these is NOT a primary profession in World of Warcraft?",
+        "answers": ["Alchemy", "Enchanting", "Cooking", "Engineering"],
+        "correct_index": 2,
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Who is the Aspect of the green dragonflight?",
+        "answers": ["Alexstrasza", "Ysera", "Nozdormu", "Malygos"],
+        "correct_index": 1,
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the name of the Lich King's runeblade?",
+        "answers": ["Frostmourne", "Ashbringer", "Shadowmourne", "Thunderfury"],
+        "correct_index": 0,
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Which race starts in the Eversong Woods?",
+        "answers": ["Night Elves", "Blood Elves", "High Elves", "Void Elves"],
+        "correct_index": 1,
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the primary resource used by Rogues?",
+        "answers": ["Mana", "Rage", "Energy", "Focus"],
+        "correct_index": 2,
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Which expansion introduced the Monk class?",
+        "answers": ["The Burning Crusade", "Wrath of the Lich King", "Cataclysm", "Mists of Pandaria"],
+        "correct_index": 3,
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the name of this Horde capital city?",
+        "answers": ["Orgrimmar", "Thunder Bluff", "Silvermoon City", "Undercity"],
+        "correct_index": 0,
+        "difficulty": "Easy",
+        "image": "https://example.com/orgrimmar_image.jpg"
+    },
+    {
+        "question": "Who is the current leader of the Forsaken?",
+        "answers": ["Sylvanas Windrunner", "Lillian Voss", "Calia Menethil", "Nathanos Blightcaller"],
+        "correct_index": 2,
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the name of the continent added in the Mists of Pandaria expansion?",
+        "answers": ["Northrend", "Pandaria", "Broken Isles", "Kul Tiras"],
+        "correct_index": 1,
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which of these is NOT a type of Druid shapeshifting form?",
+        "answers": ["Bear", "Cat", "Owl", "Moonkin"],
+        "correct_index": 2,
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the name of this dungeon located in Tirisfal Glades?",
+        "answers": ["Shadowfang Keep", "The Deadmines", "Scarlet Monastery", "Scholomance"],
+        "correct_index": 0,
+        "difficulty": "Medium",
+        "image": "https://example.com/shadowfang_keep_image.jpg"
+    },
+    {
+        "question": "Which expansion introduced the Demon Hunter class?",
+        "answers": ["The Burning Crusade", "Wrath of the Lich King", "Legion", "Battle for Azeroth"],
+        "correct_index": 2,
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the name of Thrall's legendary hammer?",
+        "answers": ["Doomhammer", "Ashbringer", "Val'anyr", "Sulfuras"],
+        "correct_index": 0,
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which of these races cannot be Paladins?",
+        "answers": ["Humans", "Tauren", "Draenei", "Night Elves"],
+        "correct_index": 3,
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which expansion introduced the Pandaren as a playable race?",
+        "answers": ["The Burning Crusade", "Wrath of the Lich King", "Cataclysm", "Mists of Pandaria"],
+        "correct_index": 3,
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the name of the currency used to purchase heirlooms?",
+        "answers": ["Gold", "Justice Points", "Valor Points", "Darkmoon Prize Tickets"],
+        "correct_index": 1,
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which of these is NOT a type of Mage spec?",
+        "answers": ["Fire", "Frost", "Arcane", "Shadow"],
+        "correct_index": 3,
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the name of the zone added in the Cataclysm expansion?",
+        "answers": ["Uldum", "Vashj'ir", "Deepholm", "Mount Hyjal"],
+        "correct_index": 1,
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Who is the final boss of the Molten Core raid?",
+        "answers": ["Ragnaros", "Nefarian", "Onyxia", "C'Thun"],
+        "correct_index": 0,
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the maximum number of professions a character can have?",
+        "answers": ["1", "2", "3", "4"],
+        "correct_index": 1,
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Which expansion introduced the Worgen as a playable race?",
+        "answers": ["The Burning Crusade", "Wrath of the Lich King", "Cataclysm", "Mists of Pandaria"],
+        "correct_index": 2,
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the name of the neutral city in Northrend?",
+        "answers": ["Shattrath City", "Dalaran", "Booty Bay", "Gadgetzan"],
+        "correct_index": 1,
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Which class uses combo points as a resource?",
+        "answers": ["Warrior", "Rogue", "Hunter", "Warlock"],
+        "correct_index": 1,
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the name of the Burning Legion's homeworld?",
+        "answers": ["Draenor", "Argus", "Azeroth", "Xoroth"],
+        "correct_index": 1,
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which of these is NOT a type of Warlock demon?",
+        "answers": ["Imp", "Voidwalker", "Succubus", "Waterelemental"],
+        "correct_index": 3,
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the name of the famous sword wielded by Arthas Menethil?",
+        "answers": ["Ashbringer", "Frostmourne", "Thunderfury", "Atiesh"],
+        "correct_index": 1,
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Which expansion introduced the Mythic+ dungeon system?",
+        "answers": ["Warlords of Draenor", "Legion", "Battle for Azeroth", "Shadowlands"],
+        "correct_index": 1,
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the name of the in-game holiday celebrating the Lunar New Year?",
+        "answers": ["Feast of Winter Veil", "Noblegarden", "Lunar Festival", "Midsummer Fire Festival"],
+        "correct_index": 2,
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which of these races starts with the highest base reputation with the Gnomeregan faction?",
+        "answers": ["Humans", "Dwarves", "Gnomes", "Night Elves"],
+        "correct_index": 2,
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which class was introduced in the Legion expansion?",
+        "answers": ["Death Knight", "Monk", "Demon Hunter", "Evoker"],
+        "correct_index": 2,
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the name of the elemental plane of water in WoW?",
+        "answers": ["The Firelands", "The Abyssal Maw", "Deepholm", "Skywall"],
+        "correct_index": 1,
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which of these is NOT a Horde playable race?",
+        "answers": ["Orcs", "Trolls", "Gnomes", "Tauren"],
+        "correct_index": 2,
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the name of the famous raid instance from The Burning Crusade?",
+        "answers": ["Karazhan", "Naxxramas", "Ulduar", "Icecrown Citadel"],
+        "correct_index": 0,
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which expansion introduced the Garrison feature?",
+        "answers": ["Mists of Pandaria", "Warlords of Draenor", "Legion", "Battle for Azeroth"],
+        "correct_index": 1,
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the name of the Warrior's charge ability?",
+        "answers": ["Intercept", "Charge", "Sprint", "Heroic Leap"],
+        "correct_index": 1,
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Who is the leader of the Bronze Dragonflight?",
+        "answers": ["Alexstrasza", "Ysera", "Nozdormu", "Malygos"],
+        "correct_index": 2,
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which of these is NOT a type of Shaman totem?",
+        "answers": ["Earth", "Fire", "Air", "Shadow"],
+        "correct_index": 3,
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the name of this famous PvP battleground?",
+        "answers": ["Warsong Gulch", "Arathi Basin", "Alterac Valley", "Eye of the Storm"],
+        "correct_index": 2,
+        "difficulty": "Easy",
+        "image": "https://example.com/alterac_valley_image.jpg"
+    },
+    {
+        "question": "Which expansion introduced the Artifact Weapon system?",
+        "answers": ["Warlords of Draenor", "Legion", "Battle for Azeroth", "Shadowlands"],
+        "correct_index": 1,
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the name of the in-game transport system that connects major cities?",
+        "answers": ["Portals", "Zeppelins", "Deeprun Tram", "Flightpaths"],
+        "correct_index": 2,
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which of these races cannot be Druids?",
+        "answers": ["Night Elves", "Tauren", "Trolls", "Orcs"],
+        "correct_index": 3,
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which expansion introduced the Timewalking feature?",
+        "answers": ["Mists of Pandaria", "Warlords of Draenor", "Legion", "Battle for Azeroth"],
+        "correct_index": 1,
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the primary resource used by Death Knights?",
+        "answers": ["Mana", "Rage", "Energy", "Runic Power"],
+        "correct_index": 3,
+        "difficulty": "Medium"
+    },
+    {
+    "question": "What is the name of the dragon aspect of the red dragonflight?",
+    "answers": ["Alexstrasza", "Ysera", "Nozdormu", "Malygos"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which profession is responsible for creating glyphs?",
+    "answers": ["Enchanting", "Inscription", "Alchemy", "Jewelcrafting"],
+    "correct_index": 1,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the name of the Titan keeper who guards Ulduar?",
+    "answers": ["Mimiron", "Thorim", "Hodir", "Loken"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which expansion introduced the Monk class?",
+    "answers": ["Cataclysm", "Mists of Pandaria", "Warlords of Draenor", "Legion"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the main city in Suramar?",
+    "answers": ["Zuldazar", "Boralus", "Dazar'alor", "Suramar City"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which of these is NOT a type of elemental plane in WoW?",
+    "answers": ["The Firelands", "The Abyssal Maw", "The Emerald Dream", "Deepholm"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What is the name of the Lich King's horse?",
+    "answers": ["Invincible", "Midnight", "Mimiron's Head", "Rivendare's Deathcharger"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which raid instance features the Old God C'Thun?",
+    "answers": ["Ulduar", "Temple of Ahn'Qiraj", "Blackwing Lair", "Ruins of Ahn'Qiraj"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the neutral city in Netherstorm?",
+    "answers": ["Shattrath", "Area 52", "Dalaran", "The Exodar"],
+    "correct_index": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which of these is NOT a type of Warlock demon?",
+    "answers": ["Felguard", "Infernal", "Abyssal", "Voidlord"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the island where Kul Tiran humans originate?",
+    "answers": ["Zandalar", "Kezan", "Kul Tiras", "Argus"],
+    "correct_index": 2,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which expansion introduced the Transmog system?",
+    "answers": ["Wrath of the Lich King", "Cataclysm", "Mists of Pandaria", "Warlords of Draenor"],
+    "correct_index": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What is the name of the currency used to purchase heirlooms?",
+    "answers": ["Justice Points", "Valor Points", "Honor Points", "Gold"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which of these races cannot be Paladins?",
+    "answers": ["Tauren", "Zandalari Trolls", "Dark Iron Dwarves", "Worgen"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the Goblin starting zone?",
+    "answers": ["Kezan", "Azshara", "Bilgewater Harbor", "Lost Isles"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which raid tier set is known as 'Tier 3'?",
+    "answers": ["Naxxramas", "Molten Core", "Blackwing Lair", "Ahn'Qiraj"],
+    "correct_index": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What is the name of the first raid instance released in World of Warcraft?",
+    "answers": ["Molten Core", "Onyxia's Lair", "Blackwing Lair", "Zul'Gurub"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which of these is NOT a type of Hunter pet family?",
+    "answers": ["Feathermane", "Scalehide", "Courser", "Dragonkin"],
+    "correct_index": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What is the name of the Pandaren starting zone?",
+    "answers": ["Jade Forest", "Valley of the Four Winds", "Wandering Isle", "Timeless Isle"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which expansion introduced the concept of 'Mythic+' dungeons?",
+    "answers": ["Warlords of Draenor", "Legion", "Battle for Azeroth", "Shadowlands"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the in-game event that occurs around Halloween?",
+    "answers": ["Feast of Winter Veil", "Hallow's End", "Pilgrim's Bounty", "Love is in the Air"],
+    "correct_index": 1,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which of these is NOT a type of Druid shapeshift form?",
+    "answers": ["Bear", "Cat", "Moonkin", "Wolf"],
+    "correct_index": 3,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the name of the PvP arena in Orgrimmar?",
+    "answers": ["Circle of Wills", "Ring of Valor", "Hall of Legends", "Ring of Trials"],
+    "correct_index": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which expansion introduced the Death Knight class?",
+    "answers": ["The Burning Crusade", "Wrath of the Lich King", "Cataclysm", "Mists of Pandaria"],
+    "correct_index": 1,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the name of the neutral faction in Sholazar Basin?",
+    "answers": ["The Kalu'ak", "The Oracles", "The Frenzyheart Tribe", "The Wolvar"],
+    "correct_index": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which of these is NOT a type of Mage portal?",
+    "answers": ["Stonard", "Theramore", "Undercity", "Silvermoon"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the dungeon located in Tirisfal Glades?",
+    "answers": ["Shadowfang Keep", "The Scarlet Monastery", "Scholomance", "Stratholme"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which expansion introduced the Archaeology profession?",
+    "answers": ["Wrath of the Lich King", "Cataclysm", "Mists of Pandaria", "Warlords of Draenor"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the faction associated with the Arakkoa in Outland?",
+    "answers": ["Sha'tari Skyguard", "Cenarion Expedition", "The Consortium", "Lower City"],
+    "correct_index": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which of these is NOT a type of Priest specialization?",
+    "answers": ["Discipline", "Holy", "Shadow", "Restoration"],
+    "correct_index": 3,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the name of the dragon aspect of the blue dragonflight?",
+    "answers": ["Alexstrasza", "Ysera", "Nozdormu", "Malygos"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which expansion introduced the concept of 'Artifact Weapons'?",
+    "answers": ["Warlords of Draenor", "Legion", "Battle for Azeroth", "Shadowlands"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the neutral city in Northrend?",
+    "answers": ["Shattrath", "Dalaran", "Booty Bay", "Gadgetzan"],
+    "correct_index": 1,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which of these is NOT a type of Shaman totem?",
+    "answers": ["Earth", "Fire", "Water", "Light"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the main villain in the Warlords of Draenor expansion?",
+    "answers": ["Garrosh Hellscream", "Gul'dan", "Archimonde", "Grommash Hellscream"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which raid instance features the Old God Yogg-Saron?",
+    "answers": ["Ulduar", "Naxxramas", "Icecrown Citadel", "Trial of the Crusader"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the Horde capital city in Zandalar?",
+    "answers": ["Zuldazar", "Dazar'alor", "Nazmir", "Vol'dun"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which of these is NOT a type of Death Knight rune?",
+    "answers": ["Blood", "Frost", "Unholy", "Shadow"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the first raid instance in the Burning Crusade expansion?",
+    "answers": ["Karazhan", "Gruul's Lair", "Magtheridon's Lair", "Serpentshrine Cavern"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which expansion introduced the Worgen and Goblin races?",
+    "answers": ["Wrath of the Lich King", "Cataclysm", "Mists of Pandaria", "Warlords of Draenor"],
+    "correct_index": 1,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the name of the faction associated with the Tuskarr in Northrend?",
+    "answers": ["The Sons of Hodir", "The Kalu'ak", "The Wyrmrest Accord", "Knights of the Ebon Blade"],
+    "correct_index": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which of these is NOT a type of Warlock curse?",
+    "answers": ["Curse of Weakness", "Curse of Tongues", "Curse of Exhaustion", "Curse of Agony"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the main villain in the Legion expansion?",
+    "answers": ["Kil'jaeden", "Archimonde", "Sargeras", "Gul'dan"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which expansion introduced the concept of 'World Quests'?",
+    "answers": ["Warlords of Draenor", "Legion", "Battle for Azeroth", "Shadowlands"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the island where Zandalari trolls originate?",
+    "answers": ["Kul Tiras", "Kezan", "Zandalar", "Nazjatar"],
+    "correct_index": 2,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which of these is NOT a type of Hunter trap?",
+    "answers": ["Freezing Trap", "Explosive Trap", "Tar Trap", "Flame Trap"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the first dungeon instance in the Shadowlands expansion?",
+    "answers": ["The Necrotic Wake", "Plaguefall", "Mists of Tirna Scithe", "Halls of Atonement"],
+    "correct_index": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which expansion introduced the concept of 'Garrisons'?",
+    "answers": ["Mists of Pandaria", "Warlords of Draenor", "Legion", "Battle for Azeroth"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the currency used in the Dragonflight expansion?",
+    "answers": ["Dragon Isles Supplies", "Draconic Power", "Dragon's Cache", "Dragon Shards"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which of these is NOT a dragonflight in World of Warcraft?",
+    "answers": ["Red", "Blue", "Green", "Yellow"],
+    "correct_index": 3,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the name of the main hub city in the Dragonflight expansion?",
+    "answers": ["Valdrakken", "Oribos", "Dalaran", "Shattrath"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which expansion introduced the Evoker class?",
+    "answers": ["Shadowlands", "Battle for Azeroth", "Legion", "Dragonflight"],
+    "correct_index": 3,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the name of the first raid in the Dragonflight expansion?",
+    "answers": ["Vault of the Incarnates", "Castle Nathria", "Sepulcher of the First Ones", "Aberrus, the Shadowed Crucible"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which of these is NOT a zone in the Dragon Isles?",
+    "answers": ["The Waking Shores", "Ohn'ahran Plains", "The Azure Span", "Valdrakken"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the dragon aspect of the black dragonflight?",
+    "answers": ["Neltharion", "Malygos", "Nozdormu", "Alexstrasza"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which profession was revamped to include 'specializations' in Dragonflight?",
+    "answers": ["Alchemy", "Blacksmithing", "Enchanting", "All professions"],
+    "correct_index": 3,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What is the name of the new talent system introduced in Dragonflight?",
+    "answers": ["Talent Trees", "Artifact Weapons", "Azerite Armor", "Covenant Abilities"],
+    "correct_index": 0,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which of these is NOT a type of dragon riding customization?",
+    "answers": ["Snout", "Horns", "Tail", "Wings"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the new race introduced in Dragonflight?",
+    "answers": ["Dracthyr", "Vulpera", "Mechagnome", "Kul Tiran"],
+    "correct_index": 0,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which expansion introduced the concept of 'Renown'?",
+    "answers": ["Battle for Azeroth", "Shadowlands", "Legion", "Dragonflight"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the currency used to upgrade Mythic+ gear in Dragonflight?",
+    "answers": ["Valor", "Conquest", "Honor", "Justice"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which of these races cannot be Monks?",
+    "answers": ["Pandaren", "Draenei", "Worgen", "Goblin"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the new profession introduced in Shadowlands?",
+    "answers": ["Archaeology", "Jewelcrafting", "Inscription", "There was no new profession"],
+    "correct_index": 3,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which raid tier set is known as 'Tier 20'?",
+    "answers": ["Tomb of Sargeras", "Antorus, the Burning Throne", "The Nighthold", "Uldir"],
+    "correct_index": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What is the name of the first mega-dungeon released in Dragonflight?",
+    "answers": ["Dawn of the Infinite", "Operation: Mechagon", "Return to Karazhan", "Tazavesh, the Veiled Market"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which of these is NOT a type of Dragonriding vigor ability?",
+    "answers": ["Skyward Ascent", "Aerial Surge", "Whirling Surge", "Dragon Dive"],
+    "correct_index": 3,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What is the name of the main villain in the Sepulcher of the First Ones raid?",
+    "answers": ["The Jailer", "Sylvanas Windrunner", "Anduin Wrynn", "Mal'Ganis"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which expansion introduced the concept of 'Conduits'?",
+    "answers": ["Legion", "Battle for Azeroth", "Shadowlands", "Dragonflight"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the in-game event that occurs during the Lunar New Year?",
+    "answers": ["Feast of Winter Veil", "Lunar Festival", "Midsummer Fire Festival", "Brewfest"],
+    "correct_index": 1,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which of these is NOT a type of Soulbind in Shadowlands?",
+    "answers": ["Pelagos", "Niya", "Theotar", "Alexandros"],
+    "correct_index": 3,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What is the name of the PvP arena in Zandalar?",
+    "answers": ["Tiger's Peak", "Mugambala", "The Robodrome", "Ashamane's Fall"],
+    "correct_index": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which expansion introduced the Allied Races system?",
+    "answers": ["Warlords of Draenor", "Legion", "Battle for Azeroth", "Shadowlands"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the neutral faction in the Broken Isles associated with Nightborne elves?",
+    "answers": ["The Nightfallen", "Court of Farondis", "Highmountain Tribe", "Dreamweavers"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which of these is NOT a type of Covenant Sanctum feature in Shadowlands?",
+    "answers": ["Anima Conductor", "Command Table", "Transport Network", "Artifact Forge"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the dungeon located in Vol'dun?",
+    "answers": ["Temple of Sethraliss", "Atal'Dazar", "The Underrot", "Shrine of the Storm"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which expansion introduced the Island Expeditions feature?",
+    "answers": ["Legion", "Battle for Azeroth", "Shadowlands", "Dragonflight"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the faction associated with the Mechagnomes in Battle for Azeroth?",
+    "answers": ["Rustbolt Resistance", "The Unshackled", "Ankoan Waveblade", "Rajani"],
+    "correct_index": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which of these is NOT a type of Torghast power?",
+    "answers": ["Anima Power", "Phantasma Power", "Maw Power", "Soul Power"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the dragon aspect of the bronze dragonflight?",
+    "answers": ["Alexstrasza", "Ysera", "Nozdormu", "Malygos"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which expansion introduced the concept of 'Covenant Sanctums'?",
+    "answers": ["Legion", "Battle for Azeroth", "Shadowlands", "Dragonflight"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the Alliance capital city in Kul Tiras?",
+    "answers": ["Boralus", "Dazar'alor", "Zuldazar", "Suramar"],
+    "correct_index": 0,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which of these is NOT a type of Kyrian steward in Shadowlands?",
+    "answers": ["Soulguide", "Forgelite", "Ascendant", "Lightbringer"],
+    "correct_index": 3,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What is the name of the main villain in the Ny'alotha, the Waking City raid?",
+    "answers": ["N'Zoth", "C'Thun", "Yogg-Saron", "Y'Shaarj"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which raid instance features the Old God N'Zoth?",
+    "answers": ["Ny'alotha, the Waking City", "Tomb of Sargeras", "The Eternal Palace", "Uldir"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the faction associated with the Tortollans in Battle for Azeroth?",
+    "answers": ["Tortollan Seekers", "Order of Embers", "Voldunai", "Talanji's Expedition"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which of these is NOT a type of Soulbind trait in Shadowlands?",
+    "answers": ["Potency", "Endurance", "Finesse", "Resilience"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the first raid instance in the Shadowlands expansion?",
+    "answers": ["Castle Nathria", "Sanctum of Domination", "Sepulcher of the First Ones", "Vault of the Incarnates"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which expansion introduced the Warfront feature?",
+    "answers": ["Legion", "Battle for Azeroth", "Shadowlands", "Warlords of Draenor"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the faction associated with the Vulpera in Battle for Azeroth?",
+    "answers": ["Voldunai", "The Unshackled", "Rustbolt Resistance", "Ankoan Waveblade"],
+    "correct_index": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which of these is NOT a type of Anima power in Torghast?",
+    "answers": ["Common", "Uncommon", "Rare", "Legendary"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the main villain in the Sanctum of Domination raid?",
+    "answers": ["Sylvanas Windrunner", "The Jailer", "Anduin Wrynn", "Kel'Thuzad"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which expansion introduced the concept of 'Covenant Callings'?",
+    "answers": ["Legion", "Battle for Azeroth", "Shadowlands", "Dragonflight"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the new customization option for Night Elves introduced in Shadowlands?",
+    "answers": ["Night Warrior", "Moonkin Form", "Shadowmeld", "Wisp Spirit"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which of these is NOT a type of Venthyr mirror in Shadowlands?",
+    "answers": ["Pride", "Desire", "Sin", "Reflection"],
+    "correct_index": 3,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What is the name of the first mega-dungeon introduced in Shadowlands?",
+    "answers": ["Tazavesh, the Veiled Market", "Operation: Mechagon", "Return to Karazhan", "Dawn of the Infinite"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which expansion introduced the concept of 'Covenant Sanctum Upgrades'?",
+    "answers": ["Legion", "Battle for Azeroth", "Shadowlands", "Dragonflight"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+    {
+    "question": "What is the name of the dragon that players help raise in Dragonflight?",
+    "answers": ["Wrathion", "Ebyssian", "Sabellian", "Vyranoth"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which of these is NOT a Dragon Aspect?",
+    "answers": ["Alexstrasza", "Ysera", "Nozdormu", "Khadgar"],
+    "correct_index": 3,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the name of the first dungeon in the Dragonflight expansion?",
+    "answers": ["Ruby Life Pools", "The Nokhud Offensive", "Halls of Infusion", "Algeth'ar Academy"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which expansion introduced the concept of 'Covenants'?",
+    "answers": ["Legion", "Battle for Azeroth", "Shadowlands", "Dragonflight"],
+    "correct_index": 2,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the name of the new profession-specific gear introduced in Dragonflight?",
+    "answers": ["Crafting Gear", "Artisan's Gear", "Profession Equipment", "Trade Tools"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which of these is NOT a zone in the Shadowlands?",
+    "answers": ["Bastion", "Maldraxxus", "Ardenweald", "Nazjatar"],
+    "correct_index": 3,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the name of the main antagonist in the Dragonflight expansion?",
+    "answers": ["Raszageth", "Deathwing", "Malygos", "Murozond"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which profession allows players to craft legendary items in Shadowlands?",
+    "answers": ["Blacksmithing", "Tailoring", "Leatherworking", "Any crafting profession"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the new PvP season introduced in Dragonflight?",
+    "answers": ["Gladiator's Resonance", "Dragonflight Season 1", "Draconic Valor", "Scales of Battle"],
+    "correct_index": 1,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which of these is NOT a type of Dragonriding skill?",
+    "answers": ["Thrill of the Skies", "Aerial Prowess", "Dragonrider's Initiative", "Draconic Surge"],
+    "correct_index": 3,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What is the name of the new race/class combination introduced in Dragonflight?",
+    "answers": ["Dracthyr Evoker", "Worgen Druid", "Tauren Paladin", "Gnome Hunter"],
+    "correct_index": 0,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which expansion introduced the concept of 'Azerite Armor'?",
+    "answers": ["Legion", "Battle for Azeroth", "Shadowlands", "Dragonflight"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the currency used to upgrade Mythic+ gear in Shadowlands?",
+    "answers": ["Valor", "Conquest", "Honor", "Cosmic Flux"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which of these races cannot be Death Knights as of Dragonflight?",
+    "answers": ["Pandaren", "Lightforged Draenei", "Mechagnomes", "All can be Death Knights"],
+    "correct_index": 3,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What is the name of the new type of gear customization introduced in Dragonflight?",
+    "answers": ["Embellishments", "Enhancements", "Augments", "Refinements"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which raid tier set is known as 'Tier 21'?",
+    "answers": ["Antorus, the Burning Throne", "Uldir", "Ny'alotha, the Waking City", "Castle Nathria"],
+    "correct_index": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What is the name of the second raid released in Dragonflight?",
+    "answers": ["Vault of the Incarnates", "Aberrus, the Shadowed Crucible", "Amirdrassil, the Dream's Hope", "Ulduar"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which of these is NOT a type of Catalyst in Dragonflight?",
+    "answers": ["Elemental", "Alchemical", "Awakened", "Primordial"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What is the name of the main hub in the Maw in Shadowlands?",
+    "answers": ["Oribos", "Ve'nari's Refuge", "Korthia", "Zereth Mortis"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which expansion introduced the concept of 'Legendaries' that players could craft?",
+    "answers": ["Warlords of Draenor", "Legion", "Battle for Azeroth", "Shadowlands"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the in-game event that occurs during the Harvest Festival?",
+    "answers": ["Pilgrim's Bounty", "Hallow's End", "Feast of Winter Veil", "Noblegarden"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which of these is NOT a type of Primal Storm in Dragonflight?",
+    "answers": ["Fire", "Water", "Air", "Earth"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the PvP arena in Shadowlands?",
+    "answers": ["Hook Point", "The Robodrome", "Enigma Crucible", "Empyrean Domain"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which expansion introduced the concept of 'Covenant Signature Abilities'?",
+    "answers": ["Legion", "Battle for Azeroth", "Shadowlands", "Dragonflight"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the neutral faction in Zereth Mortis?",
+    "answers": ["The Enlightened", "The Avowed", "The Wild Hunt", "The Undying Army"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which of these is NOT a type of Dragon Glyph in Dragonflight?",
+    "answers": ["Bronze", "Green", "Red", "White"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the dungeon located in Maldraxxus?",
+    "answers": ["Theater of Pain", "Plaguefall", "The Necrotic Wake", "Halls of Atonement"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which expansion introduced the Chromie Time feature?",
+    "answers": ["Legion", "Battle for Azeroth", "Shadowlands", "Dragonflight"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the faction associated with the Brokers in Shadowlands?",
+    "answers": ["Ve'nari's Refuge", "The Enlightened", "Cartel Al", "The Ascended"],
+    "correct_index": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which of these is NOT a type of Renown reward in Shadowlands?",
+    "answers": ["Cosmetic", "Campaign Progress", "Soulbind Empowerment", "Mount Speed Increase"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the dragon aspect of the green dragonflight?",
+    "answers": ["Alexstrasza", "Ysera", "Nozdormu", "Malygos"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which expansion introduced the concept of 'Class Orders'?",
+    "answers": ["Warlords of Draenor", "Legion", "Battle for Azeroth", "Shadowlands"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the Horde capital city in Zandalar?",
+    "answers": ["Dazar'alor", "Zuldazar", "Nazmir", "Vol'dun"],
+    "correct_index": 0,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which of these is NOT a type of Maw event in Shadowlands?",
+    "answers": ["Hunts", "Tormentors", "Assaults", "Invasions"],
+    "correct_index": 3,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What is the name of the main villain in the Battle of Dazar'alor raid?",
+    "answers": ["Jaina Proudmoore", "G'huun", "Queen Azshara", "N'Zoth"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which raid instance features the Old God G'huun?",
+    "answers": ["Uldir", "Ny'alotha, the Waking City", "The Eternal Palace", "Tomb of Sargeras"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the faction associated with the Nightborne in Legion?",
+    "answers": ["The Nightfallen", "Highmountain Tribe", "Court of Farondis", "The Dreamweavers"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which of these is NOT a type of Covenant feature in Shadowlands?",
+    "answers": ["Soulbinds", "Covenant Abilities", "Renown", "Artifact Power"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the first raid instance in the Battle for Azeroth expansion?",
+    "answers": ["Uldir", "Battle of Dazar'alor", "Crucible of Storms", "The Eternal Palace"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which expansion introduced the Allied Races system?",
+    "answers": ["Legion", "Battle for Azeroth", "Shadowlands", "Dragonflight"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the faction associated with the Mechagnomes in Battle for Azeroth?",
+    "answers": ["Rustbolt Resistance", "The Unshackled", "Ankoan Waveblade", "Rajani"],
+    "correct_index": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which of these is NOT a type of Anima Conductor channel in Shadowlands?",
+    "answers": ["Treasure", "Assault", "World Quest", "Dungeon"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the main villain in The Eternal Palace raid?",
+    "answers": ["Queen Azshara", "N'Zoth", "G'huun", "Sylvanas Windrunner"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which expansion introduced the concept of 'War Mode'?",
+    "answers": ["Legion", "Battle for Azeroth", "Shadowlands", "Dragonflight"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the name of the new customization option for Forsaken introduced in Shadowlands?",
+    "answers": ["Upright Posture", "Glowing Eyes", "Exposed Bones", "Human Skin"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which of these is NOT a type of Torghast wing in Shadowlands?",
+    "answers": ["Skoldus Hall", "Fracture Chambers", "The Upper Reaches", "Twilight Halls"],
+    "correct_index": 3,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What is the name of the second mega-dungeon introduced in Shadowlands?",
+    "answers": ["Tazavesh, the Veiled Market", "Operation: Mechagon", "Karazhan", "Return to Karazhan"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which expansion introduced the concept of 'Warfronts'?",
+    "answers": ["Legion", "Battle for Azeroth", "Shadowlands", "Dragonflight"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+    {
+    "question": "What was the original level cap in World of Warcraft at launch?",
+    "answers": ["40", "50", "60", "70"],
+    "correct_index": 2,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "How many playable races were there in the original World of Warcraft?",
+    "answers": ["6", "8", "10", "12"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which of these was NOT an original playable race in World of Warcraft?",
+    "answers": ["Human", "Orc", "Tauren", "Blood Elf"],
+    "correct_index": 3,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "How many classes were available in the original World of Warcraft?",
+    "answers": ["7", "8", "9", "10"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which of these classes was NOT available in the original World of Warcraft?",
+    "answers": ["Warrior", "Shaman", "Paladin", "Death Knight"],
+    "correct_index": 3,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What was the name of the first raid instance released in World of Warcraft?",
+    "answers": ["Molten Core", "Blackwing Lair", "Onyxia's Lair", "Zul'Gurub"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "How many talent points did a player have at the maximum level in vanilla WoW?",
+    "answers": ["31", "41", "51", "61"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What was the player cap for raids in vanilla WoW?",
+    "answers": ["20", "30", "40", "50"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which of these continents was NOT in the original World of Warcraft?",
+    "answers": ["Eastern Kingdoms", "Kalimdor", "Northrend", "None of the above"],
+    "correct_index": 2,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What was the name of the neutral auction house city in vanilla WoW?",
+    "answers": ["Booty Bay", "Gadgetzan", "Ratchet", "Everlook"],
+    "correct_index": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which class could use shields in vanilla WoW?",
+    "answers": ["Rogue", "Hunter", "Mage", "Shaman"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the highest tier of raid gear in vanilla WoW?",
+    "answers": ["Tier 1", "Tier 2", "Tier 3", "Tier 4"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which of these dungeons was NOT in the original World of Warcraft?",
+    "answers": ["Deadmines", "Wailing Caverns", "Razorfen Kraul", "Utgarde Keep"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the world boss in Duskwood?",
+    "answers": ["Stitches", "Mor'Ladim", "Fenrus the Devourer", "Lord Kazzak"],
+    "correct_index": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which profession allowed players to create arrows and bullets in vanilla WoW?",
+    "answers": ["Engineering", "Blacksmithing", "Leatherworking", "Tailoring"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the maximum number of players allowed in a party in vanilla WoW?",
+    "answers": ["3", "4", "5", "6"],
+    "correct_index": 2,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which class had a talent tree called 'Subtlety' in vanilla WoW?",
+    "answers": ["Rogue", "Druid", "Priest", "Warrior"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the legendary sword that dropped from Ragnaros in Molten Core?",
+    "answers": ["Thunderfury", "Sulfuras", "Atiesh", "Ashbringer"],
+    "correct_index": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which of these battlegrounds was NOT in the original World of Warcraft?",
+    "answers": ["Warsong Gulch", "Alterac Valley", "Arathi Basin", "Eye of the Storm"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the currency used to purchase PvP rewards in vanilla WoW?",
+    "answers": ["Honor Points", "Valor Points", "Justice Points", "Conquest Points"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which class was known for 'downranking' healing spells in vanilla WoW?",
+    "answers": ["Priest", "Druid", "Shaman", "All of the above"],
+    "correct_index": 3,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What was the highest PvP rank achievable in vanilla WoW?",
+    "answers": ["Grand Marshal/High Warlord", "Field Marshal/Warlord", "Marshal/General", "Commander/Lieutenant General"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which of these mounts was NOT available in vanilla WoW?",
+    "answers": ["Swift Zulian Tiger", "Rivendare's Deathcharger", "Winterspring Frostsaber", "Ashes of Al'ar"],
+    "correct_index": 3,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What level did players need to be to enter the Molten Core raid in vanilla WoW?",
+    "answers": ["50", "55", "60", "There was no level requirement"],
+    "correct_index": 3,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which class had the ability 'Soulstone' in vanilla WoW?",
+    "answers": ["Priest", "Mage", "Warlock", "Shaman"],
+    "correct_index": 2,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What was the name of the world boss in the Blasted Lands?",
+    "answers": ["Lord Kazzak", "Azuregos", "Ysondre", "Lethon"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which of these races could be Druids in vanilla WoW?",
+    "answers": ["Night Elf and Tauren", "Night Elf and Troll", "Tauren and Troll", "Only Night Elf"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the highest rank of the Alterac Valley reputation in vanilla WoW?",
+    "answers": ["Honored", "Revered", "Exalted", "Legendary"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which of these sets was NOT a dungeon set in vanilla WoW?",
+    "answers": ["Valor", "Dreadmist", "Lightforge", "Nemesis"],
+    "correct_index": 3,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What was the name of the quest chain to obtain the Onyxia attunement for the Alliance?",
+    "answers": ["The Great Masquerade", "Onyxia's Lair", "The Dragon's Eye", "The Scepter of the Shifting Sands"],
+    "correct_index": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which profession was required to create the 'Lionheart Helm' in vanilla WoW?",
+    "answers": ["Blacksmithing", "Engineering", "Leatherworking", "Tailoring"],
+    "correct_index": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What was the name of the currency used to purchase items from the Argent Dawn in vanilla WoW?",
+    "answers": ["Argent Dawn Valor Tokens", "Scourgestones", "Argent Commendations", "Stratholme Holy Water"],
+    "correct_index": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which of these zones was considered a contested territory in vanilla WoW?",
+    "answers": ["Elwynn Forest", "Durotar", "Ashenvale", "Mulgore"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the dragon aspect corrupted by the Old Gods in vanilla WoW?",
+    "answers": ["Alexstrasza", "Ysera", "Nozdormu", "Neltharion (Deathwing)"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which class had the ability to create food and water in vanilla WoW?",
+    "answers": ["Priest", "Mage", "Warlock", "Druid"],
+    "correct_index": 1,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What was the name of the neutral goblin city in Tanaris?",
+    "answers": ["Booty Bay", "Ratchet", "Everlook", "Gadgetzan"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which of these weapons was considered a 'stat stick' for Shamans in vanilla WoW?",
+    "answers": ["Thunderfury", "Sulfuras", "Hand of Ragnaros", "Ironfoe"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What was the maximum number of debuffs that could be applied to a target in vanilla WoW?",
+    "answers": ["8", "16", "32", "Unlimited"],
+    "correct_index": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which of these instance was considered a 'raid' despite only requiring 10 players?",
+    "answers": ["Stratholme", "Scholomance", "Upper Blackrock Spire", "Lower Blackrock Spire"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What was the name of the quest item needed for the Onyxia attunement for the Horde?",
+    "answers": ["Dragon's Eye", "Black Dragon's Eye", "Drakefire Amulet", "Onyxia's Scale"],
+    "correct_index": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which class had the ability 'Divine Intervention' in vanilla WoW?",
+    "answers": ["Priest", "Paladin", "Shaman", "Druid"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the first 20-player raid released in vanilla WoW?",
+    "answers": ["Zul'Gurub", "Ruins of Ahn'Qiraj", "Onyxia's Lair", "Blackwing Lair"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which of these was NOT a way to get to the Eastern Kingdoms from Kalimdor in vanilla WoW?",
+    "answers": ["Boat from Ratchet", "Zeppelin from Orgrimmar", "Deeprun Tram", "Portal in Darnassus"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the elite mob that patrolled the Wetlands in vanilla WoW?",
+    "answers": ["Leprithus", "Mor'Ladim", "Old Murk-Eye", "Narg the Taskmaster"],
+    "correct_index": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which profession was required to craft the 'Bottomless Bag' in vanilla WoW?",
+    "answers": ["Tailoring", "Leatherworking", "Engineering", "Enchanting"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the quest chain to obtain the Dungeon Set 2 upgrade in vanilla WoW?",
+    "answers": ["Tier 0.5", "Dungeon Master", "The Underking", "Shadows of the Past"],
+    "correct_index": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which of these items was used to summon Ragnaros in Molten Core?",
+    "answers": ["Eternal Quintessence", "Aqual Quintessence", "Core of Elements", "Essence of the Firelord"],
+    "correct_index": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What was the original drop rate for the 'Talisman of Ephemeral Power' in Molten Core?",
+    "answers": ["5%", "3%", "1%", "0.1%"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What was the name of the highest wieldable two-handed sword in vanilla WoW?",
+    "answers": ["Ashbringer", "Corrupted Ashbringer", "Thunderfury", "Might of Menethil"],
+    "correct_index": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which class was known for 'wall walking' in vanilla WoW?",
+    "answers": ["Rogue", "Hunter", "Warrior", "Mage"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the most infamous warrior ability in vanilla WoW PvP?",
+    "answers": ["Mortal Strike", "Overpower", "Execute", "Recklessness"],
+    "correct_index": 0,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which vanilla WoW dungeon was known for its 'Princess Run'?",
+    "answers": ["Maraudon", "Dire Maul", "Stratholme", "Scholomance"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the final boss in Blackwing Lair?",
+    "answers": ["Ragnaros", "Onyxia", "Nefarian", "C'Thun"],
+    "correct_index": 2,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which profession was required to craft the 'Sulfuron Hammer' in vanilla WoW?",
+    "answers": ["Blacksmithing", "Engineering", "Alchemy", "Enchanting"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the Alliance-only class in vanilla WoW?",
+    "answers": ["Paladin", "Shaman", "Druid", "Warlock"],
+    "correct_index": 0,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which vanilla WoW zone was home to the Scarlet Monastery?",
+    "answers": ["Western Plaguelands", "Eastern Plaguelands", "Tirisfal Glades", "Silverpine Forest"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the currency used to purchase rewards from the Argent Dawn in vanilla WoW?",
+    "answers": ["Argent Dawn Valor Tokens", "Scourgestones", "Stratholme Holy Water", "Argent Commendations"],
+    "correct_index": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which vanilla WoW dungeon was split into four wings?",
+    "answers": ["Stratholme", "Scholomance", "Blackrock Depths", "Dire Maul"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the fire resistance buff provided by Onyxia Scale Cloaks?",
+    "answers": ["Onyxia Scale Sinew", "Scale of Onyxia", "Onyxia's Blessing", "Dragon Scale Protection"],
+    "correct_index": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which class had the ability 'Reincarnation' in vanilla WoW?",
+    "answers": ["Priest", "Warlock", "Druid", "Shaman"],
+    "correct_index": 3,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What was the name of the elite mob that patrolled Duskwood in vanilla WoW?",
+    "answers": ["Stitches", "Mor'Ladim", "Fenrus the Devourer", "The Lurker"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which profession was required to craft the 'Arcanite Reaper' in vanilla WoW?",
+    "answers": ["Blacksmithing", "Engineering", "Alchemy", "Enchanting"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the Horde-only class in vanilla WoW?",
+    "answers": ["Paladin", "Shaman", "Druid", "Warlock"],
+    "correct_index": 1,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which vanilla WoW dungeon featured the boss 'Emperor Dagran Thaurissan'?",
+    "answers": ["Blackrock Depths", "Lower Blackrock Spire", "Stratholme", "Scholomance"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the quest to obtain the Druid aquatic form in vanilla WoW?",
+    "answers": ["Body and Heart", "Aquatic Form", "The Shrine Rebuilt", "Lessons Anew"],
+    "correct_index": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which class had the ability 'Challenging Shout' in vanilla WoW?",
+    "answers": ["Warrior", "Paladin", "Druid", "Rogue"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the first legendary weapon introduced in vanilla WoW?",
+    "answers": ["Thunderfury, Blessed Blade of the Windseeker", "Sulfuras, Hand of Ragnaros", "Atiesh, Greatstaff of the Guardian", "Rhok'delar, Longbow of the Ancient Keepers"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which vanilla WoW zone contained the entrance to the Onyxia's Lair raid?",
+    "answers": ["Dustwallow Marsh", "Burning Steppes", "Searing Gorge", "Badlands"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the quest chain to obtain the Warlock epic mount in vanilla WoW?",
+    "answers": ["Dreadsteed of Xoroth", "Charger's Rest", "The Summoning", "Unholy Alliance"],
+    "correct_index": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which class had the ability 'Cannibalize' in vanilla WoW?",
+    "answers": ["Troll (any class)", "Undead (any class)", "Orc Warrior", "Tauren Druid"],
+    "correct_index": 1,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What was the name of the neutral goblin town in Winterspring in vanilla WoW?",
+    "answers": ["Everlook", "Gadgetzan", "Ratchet", "Booty Bay"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which profession was required to craft the 'Lionheart Helm' in vanilla WoW?",
+    "answers": ["Blacksmithing", "Engineering", "Leatherworking", "Tailoring"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the debuff applied by the Warlock's Curse of Tongues spell in vanilla WoW?",
+    "answers": ["Curse of Babbling", "Tongues of Babel", "Curse of Tongues", "Linguistic Confusion"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which vanilla WoW dungeon featured the boss 'Lord Incendius'?",
+    "answers": ["Blackrock Depths", "Molten Core", "Lower Blackrock Spire", "Upper Blackrock Spire"],
+    "correct_index": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What was the name of the quest to obtain the Paladin epic mount in vanilla WoW?",
+    "answers": ["Charger's Rest", "The Divination", "A Light in Dark Places", "The Feast of Cinders"],
+    "correct_index": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which class had the ability 'Bloodrage' in vanilla WoW?",
+    "answers": ["Warrior", "Rogue", "Druid", "Hunter"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the world boss that spawned in Ashenvale in vanilla WoW?",
+    "answers": ["Emeriss", "Lethon", "Ysondre", "Taerar"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which vanilla WoW zone contained the entrance to the Zul'Gurub raid?",
+    "answers": ["Stranglethorn Vale", "Tanaris", "Feralas", "The Hinterlands"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the quest to obtain the Rhok'delar, Longbow of the Ancient Keepers in vanilla WoW?",
+    "answers": ["The Ancient Leaf", "Hunter's Calling", "Stave of the Ancients", "The Epic Hunter Quest"],
+    "correct_index": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which class had the ability 'Evocation' in vanilla WoW?",
+    "answers": ["Priest", "Mage", "Warlock", "Druid"],
+    "correct_index": 1,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What was the name of the neutral goblin town in Tanaris in vanilla WoW?",
+    "answers": ["Gadgetzan", "Ratchet", "Booty Bay", "Everlook"],
+    "correct_index": 0,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which profession was required to craft the 'Nightfall' axe in vanilla WoW?",
+    "answers": ["Blacksmithing", "Engineering", "Alchemy", "Enchanting"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the debuff applied by the Rogue's Kidney Shot ability in vanilla WoW?",
+    "answers": ["Incapacitated", "Stunned", "Kidney Shot", "Hemorrhage"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which vanilla WoW dungeon featured the boss 'Baron Rivendare'?",
+    "answers": ["Stratholme", "Scholomance", "Blackrock Depths", "Dire Maul"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the quest to obtain the Warlock epic mount in vanilla WoW?",
+    "answers": ["Dreadsteed of Xoroth", "The Summoning", "Unholy Alliance", "Charger's Rest"],
+    "correct_index": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which class had the ability 'Nature's Swiftness' in vanilla WoW?",
+    "answers": ["Druid and Shaman", "Priest and Paladin", "Mage and Warlock", "Hunter and Rogue"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the world boss that spawned in Duskwood in vanilla WoW?",
+    "answers": ["Emeriss", "Lethon", "Ysondre", "Taerar"],
+    "correct_index": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which vanilla WoW zone contained the entrance to the Ruins of Ahn'Qiraj raid?",
+    "answers": ["Silithus", "Tanaris", "Un'Goro Crater", "Feralas"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the quest to obtain Benediction/Anathema in vanilla WoW?",
+    "answers": ["The Balance of Light and Shadow", "Priestly Duties", "The Prophecy of Shadows", "Divinity"],
+    "correct_index": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which class had the ability 'Innervate' in vanilla WoW?",
+    "answers": ["Priest", "Mage", "Druid", "Shaman"],
+    "correct_index": 2,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What was the name of the neutral goblin town in Stranglethorn Vale in vanilla WoW?",
+    "answers": ["Booty Bay", "Gadgetzan", "Ratchet", "Everlook"],
+    "correct_index": 0,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which profession was required to craft the 'Felcloth Bag' in vanilla WoW?",
+    "answers": ["Tailoring", "Leatherworking", "Engineering", "Enchanting"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the ability that allowed Priests to mind control enemies in vanilla WoW?",
+    "answers": ["Mind Control", "Dominate Mind", "Psychic Scream", "Shadow Word: Pain"],
+    "correct_index": 0,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which vanilla WoW dungeon featured the boss 'Instructor Razuvious'?",
+    "answers": ["Stratholme", "Scholomance", "Naxxramas", "Blackrock Spire"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the quest to obtain the Shaman totems in vanilla WoW?",
+    "answers": ["Call of Earth/Fire/Water/Air", "Elemental Bonds", "Totem Quest", "The Elements' Call"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which class had the ability 'Recklessness' in vanilla WoW?",
+    "answers": ["Warrior", "Rogue", "Paladin", "Hunter"],
+    "correct_index": 0,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What was the name of the world boss that spawned in the Hinterlands in vanilla WoW?",
+    "answers": ["Emeriss", "Lethon", "Ysondre", "Taerar"],
+    "correct_index": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What was the name of the infamous quest chain that sent Alliance players back and forth between Stormwind and Westfall?",
+    "answers": ["The Defias Brotherhood", "The People's Militia", "The Legend of Stalvan", "The Missing Diplomat"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which quest required players to collect Zhevra hooves in the Barrens, notorious for its low drop rate?",
+    "answers": ["The Zhevra", "Hunting the Savannah", "Barrens Oasis", "Altered Beings"],
+    "correct_index": 0,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What was the name of the quest that required Alliance players to kill Stitches in Duskwood?",
+    "answers": ["The Lurking Lich", "Mor'Ladim", "The Fate of Stalvan", "Bride of the Embalmer"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which quest chain in Tirisfal Glades involved helping a Forsaken alchemist create a new plague?",
+    "answers": ["A New Plague", "The Mindless Ones", "Prove Your Worth", "Fields of Grief"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the quest that required players to collect various animal parts in Stranglethorn Vale?",
+    "answers": ["Big Game Hunter", "Welcome to the Jungle", "The Green Hills of Stranglethorn", "Hunting in Stranglethorn"],
+    "correct_index": 2,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which quest in Desolace required players to collect Kodo bones?",
+    "answers": ["Bone Collector", "Kodo Roundup", "Ghost-o-plasm Round Up", "Befouled by Satyr"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the quest chain that led players to Onyxia's Lair?",
+    "answers": ["The Great Masquerade", "The Onyxia Lair Raid", "Dragonkin Menace", "The Dragon's Eye"],
+    "correct_index": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which quest required players to collect ears in the Alterac Mountains?",
+    "answers": ["Alterac Valley Graveyards", "Proving Grounds", "Brotherly Love", "Assassin's Contract"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What was the name of the quest that sent players to kill the elite mob Vagash in Dun Morogh?",
+    "answers": ["The Public Servant", "Frostmane Hold", "The Troll Cave", "Scalding Mornbrew Delivery"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which quest chain in Un'Goro Crater involved collecting colored power crystals?",
+    "answers": ["Chasing A-Me 01", "The Apes of Un'Goro", "Crystals of Power", "It's a Secret to Everybody"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the quest that required players to kill Hogger in Elwynn Forest?",
+    "answers": ["Wanted: Hogger", "Riverpaw Gnoll Bounty", "The Hogger Threat", "Manhunt"],
+    "correct_index": 0,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which quest in the Badlands required players to collect dragon whelp scales?",
+    "answers": ["Tremors of the Earth", "Scalding Mornbrew Delivery", "Broken Alliances", "A Colleague's Aid"],
+    "correct_index": 3,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What was the name of the quest chain that led to players obtaining their Dungeon Set 2 armor?",
+    "answers": ["Tier 0.5 Quest Chain", "Dungeon Masters", "The Darkreaver Menace", "Shadows of the Past"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which quest required players to collect Tanaris bandit masks?",
+    "answers": ["WANTED: Caliph Scorpidsting", "Security for Nethergarde", "Wasteland", "Water Pouch Bounty"],
+    "correct_index": 3,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What was the name of the quest that sent players to kill the elite mob Sven Yorgen in Duskwood?",
+    "answers": ["The Legend of Stalvan", "Sven's Revenge", "The Night Watch", "Worgen in the Woods"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which quest chain in Silithus involved collecting Twilight Texts?",
+    "answers": ["Twilight Geolords", "Encrypted Twilight Texts", "The Twilight Mystery", "Allegiance to Cenarion Circle"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the quest that required players to collect Deeprun Rat Kebobs in the Deeprun Tram?",
+    "answers": ["Rat Catching", "Deeprun Pest Control", "The Rat Problem", "Gaffer Jack"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which quest in Felwood required players to cleanse corrupted plants?",
+    "answers": ["Forces of Jaedenar", "Cleansing Felwood", "Timbermaw Ally", "Salve via Hunting"],
+    "correct_index": 3,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What was the name of the quest chain that led to players obtaining their epic hunter bow or staff?",
+    "answers": ["The Epic Hunter Quest", "Ancient Petrified Leaf", "Stave of the Ancients", "Rhok'delar, the Ancient Bow"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which quest required players to collect Rocket Car Parts in the Shimmering Flats?",
+    "answers": ["Salt Flat Venom", "Hardened Shells", "Rocket Car Parts", "Goblin Sponsorship"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the quest that sent players to kill the elite mob Terrowulf Packlord in Ashenvale?",
+    "answers": ["Culling the Threat", "Ursangous's Paw", "The Howling Vale", "Vorsha the Lasher"],
+    "correct_index": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which quest chain in Eastern Plaguelands involved collecting Stratholme Holy Water?",
+    "answers": ["The Archivist", "Zaeldarr the Outcast", "The Flesh Does Not Lie", "Houses of the Holy"],
+    "correct_index": 3,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What was the name of the quest that required players to collect Witherbark Tusks in the Hinterlands?",
+    "answers": ["Stalking the Stalkers", "Snapjaws, Mon!", "Troll Necklace Bounty", "Cannibalistic Cousins"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which quest in Winterspring required players to collect Chillwind Horns?",
+    "answers": ["Frostsaber Provisions", "Luck Be With You", "Are We There, Yeti?", "Chillwind Horns"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the quest chain that led to players obtaining their Warlock epic mount?",
+    "answers": ["Dreadsteed of Xoroth", "The Binding", "Imp Delivery", "Summon the Fel Steed"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which quest required players to collect Gorilla Fangs in Stranglethorn Vale?",
+    "answers": ["The Green Hills of Stranglethorn", "Tiger Mastery", "Panther Mastery", "Raptor Mastery"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the quest that sent players to kill the elite mob Araga in the Badlands?",
+    "answers": ["Tremors of the Earth", "The Anvil's Horn", "Mirages", "Broken Alliances"],
+    "correct_index": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which quest chain in Feralas involved helping the trapped sprite Sprite Darter?",
+    "answers": ["The Ruins of Solarsal", "The Stave of Equinex", "The Mark of Quality", "In Search of Knowledge"],
+    "correct_index": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What was the name of the quest that required players to collect Essence of Undeath in Western Plaguelands?",
+    "answers": ["Skeletal Fragments", "The Jeremiah Blues", "Araj's Scarab", "Unfinished Business"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which quest in Azshara required players to collect Highborne Relics?",
+    "answers": ["Spiritual Unrest", "Stealing Knowledge", "Azshara's Fallen", "Irontree Heart"],
+    "correct_index": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What was the name of the quest chain that led to players obtaining Thunderfury, Blessed Blade of the Windseeker?",
+    "answers": ["A Binding Contract", "The Windseeker's Blade", "Thunderaan the Windseeker", "Bindings of the Windseeker"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which quest required players to collect Wastewander Water Pouches in Tanaris?",
+    "answers": ["WANTED: Caliph Scorpidsting", "Water Pouch Bounty", "Pirate Hats Ahoy!", "Screecher Spirits"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the quest that sent players to kill the elite mob Crusader Lord Valdelmar in Western Plaguelands?",
+    "answers": ["The Scourge Cauldrons", "Araj's Scarab", "All Along the Watchtowers", "The So-Called Mark of the Lightbringer"],
+    "correct_index": 3,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which quest chain in Burning Steppes involved collecting Black Dragon Eggs?",
+    "answers": ["Broodling Essence", "Dragonkin Menace", "The Heart of the Mountain", "A Taste of Flame"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the quest that required players to collect Zesty Clam Meat in Darkshore?",
+    "answers": ["Washed Ashore", "The Family and the Fishing Pole", "Fruit of the Sea", "Buzzbox 827"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which quest in Dustwallow Marsh required players to collect Sentry Gizmos?",
+    "answers": ["Identifying the Brood", "The Orc Report", "Suspicious Hoofprints", "Inspecting the Ruins"],
+    "correct_index": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What was the name of the quest chain that led to players obtaining their Paladin epic mount?",
+    "answers": ["The Lighthammer", "The Trials of the Lightbringer", "Redemption", "Charger's Rest"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which quest required players to collect Gizmorium Shards in Gnomeregan?",
+    "answers": ["Gnogaine", "The Sparklematic 5200!", "Essential Artificials", "Data Rescue"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What was the name of the quest that sent players to kill the elite mob Narillasanz in Alterac Mountains?",
+    "answers": ["Frostmaw", "Syndicate Assassins", "The Crown of Will", "Wanted: Overseer Maltorius"],
+    "correct_index": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which quest chain in Un'Goro Crater involved collecting dinosaur bones?",
+    "answers": ["Beware of Pterrordax", "The Apes of Un'Goro", "Chasing A-Me 01", "Expedition Salvation"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the quest that required players to collect Shadowcat Hides in Darkshore?",
+    "answers": ["The Tower of Althalaxx", "How Big a Threat?", "Deep Ocean, Vast Sea", "Washed Ashore"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which quest in Silithus required players to collect Silithyst?",
+    "answers": ["Deadly Desert Venom", "The Twilight Lexicon", "Securing the Supply Lines", "Scouring the Desert"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What was the name of the quest chain that led to players obtaining Sulfuras, Hand of Ragnaros?",
+    "answers": ["The Molten Core", "Thunderaan the Windseeker", "A Binding Contract", "Sulfuron Ingot"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which quest required players to collect Troll Tribal Necklaces in Stranglethorn Vale?",
+    "answers": ["A Tribe Divided", "Split Bone Necklace", "Headhunting", "Skullsplitter Tusks"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the quest that sent players to kill the elite mob Fellicent's Shade in Tirisfal Glades?",
+    "answers": ["Prove Your Worth", "The Damned", "Garren's Haunt", "The Haunted Mills"],
+    "correct_index": 3,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which quest chain in Felwood involved cleansing corrupted Windblossom Berries?",
+    "answers": ["Cleansing Felwood", "Timbermaw Ally", "Salve via Hunting", "Corrupted Windblossom"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the quest that required players to collect Glowing Scorpid Blood in the Barrens?",
+    "answers": ["Blueleaf Tubers", "Fungal Spores", "Wharfmaster Dizzywig", "Venomtail Antidote"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which quest in Desolace required players to collect Kodo Horns?",
+    "answers": ["Kodo Roundup", "Ghost-o-plasm Round Up", "Bone Collector", "Centaur Bracers"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the quest chain that led to players obtaining their Priest epic staff Benediction/Anathema?",
+    "answers": ["The Balance of Light and Shadow", "Priestly Duties", "The Eye of Divinity", "Artifact of the Gods"],
+    "correct_index": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which quest required players to collect Bloodscalp Ears in Stranglethorn Vale?",
+    "answers": ["Bloodscalp Clan Heads", "Speaking with Nezzliok", "Bloody Bone Necklaces", "Trollbane"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the quest that sent players to kill the elite mob Ravenclaw Regent in Silverpine Forest?",
+    "answers": ["The Decrepit Ferry", "Prove Your Worth", "Arugal's Folly", "The Deathstalkers' Report"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In the Burning Crusade, what item did players need to collect for the quest 'Matis the Cruel' in Shadowmoon Valley?",
+    "answers": ["Illidari Bane Stones", "Ata'mal Armaments", "Fel Gland", "Eclipsion Armor"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which Wrath of the Lich King quest chain culminated in the cinematic showing Bolvar becoming the new Lich King?",
+    "answers": ["The Light of Dawn", "The Battle For Undercity", "Fall of the Lich King", "Tirion's Gambit"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the quest in Cataclysm where players helped Thrall escape from the Maelstrom?",
+    "answers": ["Elemental Bonds", "The Nordrassil Summit", "Descent Into Madness", "The Worldbreaker"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Mists of Pandaria, what was the name of the quest where players helped Chen Stormstout brew beer?",
+    "answers": ["Doesn't Hold Water", "Hoperation: Thunderbrew", "Barreling Along", "Li Li's Day Off"],
+    "correct_index": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which Warlords of Draenor quest involved players in a vehicular chase sequence in Talador?",
+    "answers": ["The Train Job", "Auchindoun", "Scheduled Pickup", "Escape From Shattrath"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Legion, what was the name of the quest where players helped Runas the Shamed in Azsuna?",
+    "answers": ["The Fate of the Withered", "Magic Message", "Runas the Redeemed", "Following the Curse"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which Battle for Azeroth quest involved players in freeing Jaina Proudmoore from Thros, the Blighted Lands?",
+    "answers": ["A Nation United", "Thros, the Blighted Lands", "The Pride of Kul Tiras", "Siegebreaker"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Shadowlands, what was the name of the quest where players helped souls cross a river in Ardenweald?",
+    "answers": ["Tending to Wildseeds", "Ride of the Wild Hunt", "The Fourth Wall, er, War", "He's Drust in the Way"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the quest in Dragonflight where players helped Chromie investigate time anomalies?",
+    "answers": ["Temporal Two-Step", "Chromie Time", "A Timely Situation", "Distorted Time"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In the Burning Crusade, what item did players need to collect for the quest 'Marks of Sargeras' in Shadowmoon Valley?",
+    "answers": ["Marks of Kil'jaeden", "Fel Armaments", "Marks of Sargeras", "Apexis Shards"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which Wrath of the Lich King quest chain involved players in the story of Matthias Lehner?",
+    "answers": ["The Scarlet Onslaught Emerges", "The Truth Shall Set Us Free", "The Cleansing Of Stratholme", "The Fate of the Kingdom"],
+    "correct_index": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What was the name of the Cataclysm quest where players helped Thrall and Aggra in the Maelstrom?",
+    "answers": ["Elemental Bonds", "The Nordrassil Summit", "The Last Living Lorekeeper", "The Worldbreaker"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Mists of Pandaria, what was the name of the quest where players helped Li Li Stormstout find Chen?",
+    "answers": ["Li Li's Day Off", "The Chen Taste Test", "Hop Hunting", "The Rider's Journey"],
+    "correct_index": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which Warlords of Draenor quest involved players in rescuing Durotan's wife, Draka?",
+    "answers": ["The Shadowmoon Clan", "News From Nagrand", "On the Shadow's Trail", "The Frostwolf Way"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Legion, what was the name of the quest where players helped Odyn defeat Helya?",
+    "answers": ["Odyn's Judgment", "The Gates of Valor", "Helya's Conquest", "The Once and Future Lord of Storms"],
+    "correct_index": 3,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which Battle for Azeroth quest involved players in helping Bwonsamdi choose new souls?",
+    "answers": ["The Will of the Loa", "A Bwonsamdi Adventure", "Meerah's Caravan", "Souls for de Other Side"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Shadowlands, what was the name of the quest where players helped the Ember Court in Revendreth?",
+    "answers": ["The Accuser's Sinstone", "A Fresh Start", "The Ember Court", "Mending a Broken Crown"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the quest in Dragonflight where players helped Wrathion investigate the Primalists?",
+    "answers": ["Wrathion's Gambit", "A Charge of the Aspects", "Essence of the Red", "The Shadow of His Wings"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In the Burning Crusade, what item did players need to collect for the quest 'The Cipher of Damnation' in Shadowmoon Valley?",
+    "answers": ["First Fragment of the Cipher", "Gorefiend's Armor", "Sketh'lon Feathers", "Eclipsion Armor"],
+    "correct_index": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which Wrath of the Lich King quest chain involved players in the story of Crusader Bridenbrad?",
+    "answers": ["The Boon of A'dal", "The Cleansing Of Stratholme", "The Truth Shall Set Us Free", "The Fate of the Kingdom"],
+    "correct_index": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What was the name of the Cataclysm quest where players helped Thrall reconnect with the element of Earth?",
+    "answers": ["Elemental Bonds: Patience", "The Nordrassil Summit", "The Last Living Lorekeeper", "Deep in the Bowels of The Earth"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Mists of Pandaria, what was the name of the quest where players helped Vol'jin recover from his wounds?",
+    "answers": ["The Darkness Within", "Darkspear Redemption", "The Fall of Shan Bu", "Champion of the Horde"],
+    "correct_index": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which Warlords of Draenor quest involved players in helping Yrel become an exarch?",
+    "answers": ["The Defense of Karabor", "Yrel's Darkest Hour", "Exarch of the Naaru", "Darkness Falls"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Legion, what was the name of the quest where players helped Illidan confront Xe'ra?",
+    "answers": ["The Child of Light and Shadow", "Fate of the Nightborne", "Awakenings", "The Highlord's Return"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which Battle for Azeroth quest involved players in helping Talanji become queen of Zandalar?",
+    "answers": ["The King's Death", "The Return of Derek Proudmoore", "The Rite of Kings and Queens", "Zandalar Forever!"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Shadowlands, what was the name of the quest where players helped free the Runecarver's memories?",
+    "answers": ["Reawakening", "Maw Walker", "The Jailer's Grasp", "Rule 7: Betrayal"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the quest in Dragonflight where players helped Alexstrasza confront Raszageth?",
+    "answers": ["Confined Creation", "Old Friends, New Troubles", "Legacy Reclaimed", "The Courage of One's Convictions"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In the Burning Crusade, what was the name of the quest where players confronted Illidan for the first time?",
+    "answers": ["The Cipher of Damnation", "Entry Into the Black Temple", "The Hostage Soul", "Battle of the Crimson Watch"],
+    "correct_index": 3,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which Wrath of the Lich King quest involved players in helping Tirion Fordring reclaim the Ashbringer?",
+    "answers": ["The Cleansing of Stratholme", "The Light of Dawn", "A Tale of Valor", "The Boon of the Ashbringer"],
+    "correct_index": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What was the name of the Cataclysm quest where players helped Thrall reconnect with the element of Air?",
+    "answers": ["Elemental Bonds: Fury", "The Nordrassil Summit", "The Last Living Lorekeeper", "Hyjal Recycling Program"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Mists of Pandaria, what was the name of the quest where players helped Anduin Wrynn recover from his injuries?",
+    "answers": ["The Kirin Tor's True Colors", "The King and the Council", "A Royal Escort", "The Measure of a Leader"],
+    "correct_index": 3,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which Warlords of Draenor quest involved players in helping Thrall confront Garrosh?",
+    "answers": ["And Justice for Thrall", "Garrison Campaign: The Beastlord", "Fury of Frostfire", "Cut Them Down"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Legion, what was the name of the quest where players helped Khadgar close the Tomb of Sargeras?",
+    "answers": ["Assault on Broken Shore", "The Fate of Val'sharah", "Armies of Legionfall", "Pillars of Creation"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which Battle for Azeroth quest involved players in helping Jaina reunite with her mother?",
+    "answers": ["A Nation United", "Thros, the Blighted Lands", "The Pride of Kul Tiras", "Siege of Boralus"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Shadowlands, what was the name of the quest where players helped Ysera return to life?",
+    "answers": ["The End of the Cycle", "Awaken the Dreamer", "Winter's Sigil", "The Arbiter's Will"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the quest in Dragonflight where players helped restore the Halls of Infusion?",
+    "answers": ["Elemental Mastery", "Essence of the Blue", "Legacy Reclaimed", "Return to the Halls of Infusion"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In the Burning Crusade, what was the name of the quest where players helped Akama betray Illidan?",
+    "answers": ["Akama's Promise", "The Secret Compromised", "Akama", "Against the Illidari"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which Wrath of the Lich King quest involved players in helping Arthas's past self in the Culling of Stratholme?",
+    "answers": ["Dispelling Illusions", "A Royal Escort", "The Culling of Time", "Patricide"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the Cataclysm quest where players helped Thrall reconnect with the element of Water?",
+    "answers": ["Elemental Bonds: Flow", "The Nordrassil Summit", "The Last Living Lorekeeper", "Hyjal Recycling Program"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Mists of Pandaria, what was the name of the quest where players helped Lorewalker Cho explore the Vale of Eternal Blossoms?",
+    "answers": ["Lorewalker Cho's Journal", "Together, We Are Strong", "A Celestial Experience", "The Shrine of Seven Stars"],
+    "correct_index": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which Warlords of Draenor quest involved players in helping Khadgar defeat Gul'dan?",
+    "answers": ["The Invasion of Tanaan", "Gul'dan Strikes Back", "Garrison Campaign: The Ring of Blood", "Draenor's Last Stand"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Legion, what was the name of the quest where players helped Illidan regain his body?",
+    "answers": ["The Once and Future Lord of Outland", "The Hunt for Illidan Stormrage", "Destiny Unfulfilled", "Immortal Soul"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+    {
+    "question": "Which Battle for Azeroth quest involved players in helping Tyrande become the Night Warrior?",
+    "answers": ["A Soft Glow", "In Darkest Night", "The Night Warrior", "Tyrande's Ascension"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Shadowlands, what was the name of the quest where players helped Bolvar communicate with his daughter Taelia?",
+    "answers": ["The Highlord's Vision", "Tormented Kings", "Field Seance", "An Echo in the Darkness"],
+    "correct_index": 3,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What was the name of the quest in Dragonflight where players helped Nozdormu investigate time anomalies?",
+    "answers": ["Temporal Difficulties", "Essence of the Bronze", "Keeping Up with the Timelines", "Strands of Time"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In the Burning Crusade, what was the name of the quest where players helped A'dal defeat Kael'thas in Tempest Keep?",
+    "answers": ["The Cipher of Damnation", "The Fall of the Sunwell", "The Battle for the Sun's Reach Armory", "Kael'thas and the Verdant Sphere"],
+    "correct_index": 3,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which Wrath of the Lich King quest involved players in helping Argent Crusade establish a foothold in Icecrown?",
+    "answers": ["The Argent Vanguard", "The Last Line Of Defense", "The Skybreaker", "Crusader's Pinnacle"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the name of the Cataclysm quest where players helped Thrall reconnect with the element of Fire?",
+    "answers": ["Elemental Bonds: Rage", "The Nordrassil Summit", "The Last Living Lorekeeper", "Hyjal Recycling Program"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Mists of Pandaria, what was the name of the quest where players helped Wrathion create his legendary cloak?",
+    "answers": ["Celestial Blessings", "Cloak of Virtue", "The Crown of Heaven", "Fear Itself"],
+    "correct_index": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which Warlords of Draenor quest involved players in helping Khadgar retrieve Atiesh?",
+    "answers": ["The Staff of Archmage Vargoth", "Archmage Vargoth's Staff", "Making Acquaintances", "Echo of Archmage Vargoth"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the peak number of subscribers World of Warcraft had?",
+    "answers": ["8 million", "10 million", "12 million", "14 million"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In which year did World of Warcraft reach its peak subscription numbers?",
+    "answers": ["2008", "2010", "2012", "2014"],
+    "correct_index": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "How many copies did the 'The Burning Crusade' expansion sell on its first day of release?",
+    "answers": ["1.5 million", "2.4 million", "3.5 million", "4.7 million"],
+    "correct_index": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What was the total revenue generated by World of Warcraft in its first decade?",
+    "answers": ["$5 billion", "$10 billion", "$15 billion", "$20 billion"],
+    "correct_index": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "How many active players did World of Warcraft have as of 2021?",
+    "answers": ["1-2 million", "2-3 million", "3-4 million", "4-5 million"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What percentage of WoW players were reported to be female in 2009?",
+    "answers": ["10%", "20%", "30%", "40%"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "How many copies did 'Wrath of the Lich King' sell in its first 24 hours?",
+    "answers": ["2.1 million", "2.8 million", "3.5 million", "4.2 million"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What was the average age of a World of Warcraft player in 2006?",
+    "answers": ["18", "23", "28", "33"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "How many servers (realms) did WoW have globally at its peak?",
+    "answers": ["500", "1000", "1500", "2000"],
+    "correct_index": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What percentage of max-level characters were reported to be tanks in Wrath of the Lich King?",
+    "answers": ["5%", "10%", "15%", "20%"],
+    "correct_index": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "How many total characters had been created in WoW by its 10th anniversary?",
+    "answers": ["500 million", "750 million", "1 billion", "1.5 billion"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What was the most popular race in WoW as of the Cataclysm expansion?",
+    "answers": ["Human", "Blood Elf", "Night Elf", "Orc"],
+    "correct_index": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "How many quests were available in WoW at the launch of the original game?",
+    "answers": ["500", "1000", "2000", "3000"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What percentage of WoW players were reported to use voice chat in 2009?",
+    "answers": ["10%", "25%", "50%", "75%"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "How many words of text were estimated to be in WoW by the Cataclysm expansion?",
+    "answers": ["1 million", "2.5 million", "5 million", "10 million"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What was the average playtime per week for a WoW player in 2006?",
+    "answers": ["5 hours", "10 hours", "20 hours", "30 hours"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "How many achievement points were possible to earn when the system was introduced in Wrath of the Lich King?",
+    "answers": ["1000", "2000", "3000", "4000"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What percentage of players were reported to play on PvP servers in 2010?",
+    "answers": ["15%", "25%", "35%", "45%"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "How many unique items were in the game by the end of the Burning Crusade expansion?",
+    "answers": ["10,000", "20,000", "30,000", "40,000"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What was the most popular class in WoW as of the Wrath of the Lich King expansion?",
+    "answers": ["Paladin", "Death Knight", "Hunter", "Warrior"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "How many total deaths occurred in WoW in the first 9 years?",
+    "answers": ["1 billion", "5 billion", "10 billion", "15 billion"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What percentage of players were reported to use add-ons in 2009?",
+    "answers": ["50%", "60%", "70%", "80%"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "How many lines of code did WoW have as of 2014?",
+    "answers": ["1 million", "5.5 million", "10 million", "15 million"],
+    "correct_index": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What was the average number of characters per account in 2010?",
+    "answers": ["3", "5", "7", "9"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "How many players participated in the WoW 10th Anniversary Molten Core raid event?",
+    "answers": ["1 million", "2.5 million", "5 million", "7.5 million"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What percentage of max-level characters were reported to be healers in Wrath of the Lich King?",
+    "answers": ["10%", "15%", "20%", "25%"],
+    "correct_index": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "How many players had the 'Insane in the Membrane' achievement by 2012?",
+    "answers": ["0.1%", "0.5%", "1%", "2%"],
+    "correct_index": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What was the average raid size in Wrath of the Lich King?",
+    "answers": ["10 players", "15 players", "20 players", "25 players"],
+    "correct_index": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "How many eligible voters were estimated to play WoW in the US during the 2008 election?",
+    "answers": ["500,000", "1 million", "2 million", "3 million"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What percentage of players were reported to use the Auction House regularly in 2010?",
+    "answers": ["30%", "45%", "60%", "75%"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "How many bosses were in the game by the end of the Wrath of the Lich King expansion?",
+    "answers": ["500", "750", "1000", "1250"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What was the most popular profession in WoW as of the Cataclysm expansion?",
+    "answers": ["Alchemy", "Mining", "Herbalism", "Enchanting"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "How many kilometers would you have to walk to explore every zone in WoW as of Cataclysm?",
+    "answers": ["50 km", "100 km", "200 km", "300 km"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What percentage of players were reported to participate in PvP regularly in 2009?",
+    "answers": ["20%", "30%", "40%", "50%"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "How many voice actors contributed to WoW by the Wrath of the Lich King expansion?",
+    "answers": ["100", "200", "300", "400"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What was the average guild size in 2010?",
+    "answers": ["25 members", "50 members", "75 members", "100 members"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "How many players completed the 'What a Long, Strange Trip It's Been' achievement in its first year?",
+    "answers": ["100,000", "250,000", "500,000", "1,000,000"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What percentage of max-level characters were reported to be DPS in Wrath of the Lich King?",
+    "answers": ["50%", "60%", "70%", "75%"],
+    "correct_index": 3,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "How many daily quests were available in WoW by the end of the Burning Crusade expansion?",
+    "answers": ["50", "100", "150", "200"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What was the average level of all characters in WoW in 2009?",
+    "answers": ["20", "30", "40", "50"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "How many players had completed the 'Loremaster' achievement by 2011?",
+    "answers": ["1%", "2%", "3%", "4%"],
+    "correct_index": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What percentage of players were reported to raid regularly in 2010?",
+    "answers": ["10%", "20%", "30%", "40%"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "How many NPCs were in the game by the end of the Cataclysm expansion?",
+    "answers": ["50,000", "100,000", "150,000", "200,000"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What was the most popular battleground in WoW as of the Wrath of the Lich King expansion?",
+    "answers": ["Warsong Gulch", "Arathi Basin", "Alterac Valley", "Eye of the Storm"],
+    "correct_index": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "How many petabytes of data did Blizzard's servers process daily for WoW in 2012?",
+    "answers": ["1 petabyte", "5 petabytes", "10 petabytes", "20 petabytes"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What percentage of players were reported to use the Dungeon Finder tool daily in 2010?",
+    "answers": ["25%", "40%", "55%", "70%"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "How many mounts were available in the game by the end of the Wrath of the Lich King expansion?",
+    "answers": ["100", "150", "200", "250"],
+    "correct_index": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What was the average time played to reach max level in Cataclysm?",
+    "answers": ["5 days", "7 days", "10 days", "14 days"],
+    "correct_index": 1,
+    "difficulty": "Medium"
+  }
+]

@@ -1,5 +1,11 @@
 # wow-ilvl-bot
 
+Create a file called ".env". Set these values:
+CLIENT_SECRET="xyz" (For wow api)
+CLIENT_ID="GGEZ" (wow api)
+BOT_TOKEN="XYZ" (discord developer bot token)
+GROQ_API_KEY="daf" (get apikey at groqcloud)
+
 This is shid.
 
 Discord -> main -> db
