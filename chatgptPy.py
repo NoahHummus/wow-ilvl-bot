@@ -67,6 +67,7 @@ def generate_duel_narrative(character1_data, character2_data):
     6. Include brief moments of dialogue or character thoughts to add depth.
     7. Make sure the narrative is engaging, compelling, and written like an professional writer.
     8. Use World of Warcraft's terminology for spells, abilities, and effects.
+    9. The narration must be bloody and include gruesome gorey details when characters inflict damage to each other. Describe in details and limbs removed, bloodshed, and the impact of environmental hazards.
     
     After each significant action, provide a brief status update, Round must start with the word Round followed by the round number, no other text followed by a newline. It should look like this:
     Round X
@@ -97,7 +98,7 @@ def generate_duel_narrative(character1_data, character2_data):
         messages=[
             {
                 "role": "system",
-                "content": "You are a master storyteller and World of Warcraft expert, crafting vivid and exciting narratives of epic duels."
+                "content": "You are a master storyteller and World of Warcraft expert, crafting vivid and exciting narratives of epic duels. The duels must be bloody and described in gory detail."
             },
             {
                 "role": "user",
@@ -105,7 +106,7 @@ def generate_duel_narrative(character1_data, character2_data):
             }
         ],
         model="llama-3.1-70b-versatile",
-        temperature=0.2,
+        temperature=1.0,
     )
 
     return response.choices[0].message.content
