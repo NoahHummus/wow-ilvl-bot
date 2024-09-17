@@ -9,25 +9,21 @@ bnetapiuri = 'https://us.api.blizzard.com'
 
 
 # generating access token that is required in each request
-def create_access_token(client_id = "c16db4e6f6844553a6ce96bd878fcda0", client_secret = "h4LrdHlSYDWJ7RAkGsavQZviPWbEVt1g"):
+def create_access_token(client_id = os.getenv("CLIENT_ID"), client_secret = os.getenv("CLIENT_SECRET")):
     data = { 'grant_type': 'client_credentials' }
     response = requests.post('https://us.battle.net/oauth/token', data=data, auth=(client_id, client_secret))
     jsonresponse = response.json()
     return jsonresponse.get('access_token')
 
+#generate token once on startup
+access_token = create_access_token()
+
 
 # retrieve character profile from wow api
 def get_character_profile(realm,charactername):
-    headers = {
-    'Authorization' : f"BEARER {create_access_token()}"   
-    }
-    params = {
-    'namespace' : 'profile-us',
-    'locale' : 'en_US'
-    }
-    response = requests.get(f"{bnetapiuri}/profile/wow/character/{realm}/{charactername}", params=params, headers=headers)
-    print(f"Status code : {response.status_code}")
-    print(response.json())
+    print("getting profile for: "+charactername)
+    print("realm: "+realm)
+    response = requests.get(f"{bnetapiuri}/profile/wow/character/{realm}/{charactername}?namespace=profile-us&locale=en_US&access_token={access_token}")
     return response
 
 
@@ -49,9 +45,7 @@ def get_ilvl_from_profile(profilelist):
     for response in profilelist:
         playerinfo = {}
         ilvl = response.get("equipped_item_level")
-        print(ilvl)
         charactername = response.get("name")
-        print(charactername)
         playerinfo.update({'ilvl': ilvl})
         playerinfo.update({'name': charactername})
         ilvllist.append(playerinfo)
